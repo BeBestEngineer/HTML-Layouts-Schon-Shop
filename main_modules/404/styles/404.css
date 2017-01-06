@@ -1,0 +1,11 @@
+/* 404 */
+
+.page-404__wrapper {
+	width: 31%;
+	margin: 0 auto;
+}
+
+.page-404__back-to-home-button {
+	display: inline-block;
+	padding: 10px 25px;
+}

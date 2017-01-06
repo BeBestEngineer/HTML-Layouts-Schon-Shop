@@ -1,0 +1,28 @@
+/* shopping-cart */
+
+.shopping-cart__image-wrapper {
+	height: 79px;
+}
+
+.process-circle {
+	display: inline-block;
+	padding: 20px 28px;
+	border-radius: 50%;
+	border: 2px solid #838182;
+}
+
+.shopping-cart__apply-button,
+.shopping-cart__procwwd-checkout-button,
+.shopping-cart__update-button {
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.shopping-cart__form svg {
+	fill: #a1a1a1;
+}
+
+.shopping-cart__procwwd-checkout-button svg,
+.shopping-cart__update-button svg {
+	fill: #ffffff;
+}

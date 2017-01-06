@@ -1,0 +1,61 @@
+/*Footer-1 styles*/
+
+/*Sticky footer ( begin )*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.page-wrapper {
+	margin-bottom: 450px;
+}
+
+.footer-1 {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 450px;
+
+}
+/*Sticky footer ( end )*/
+
+
+.payments-system {
+	font-size: 0;
+}
+
+.payment-system {
+	display: inline-block;
+	width: 45px;
+	height: 29px;
+	background: #ffffff url('../../../../images/footer/payment-methods.png') no-repeat;
+}
+
+.payment-system:nth-child(1) {
+	background-position: 0px 0px;
+}
+.payment-system:nth-child(2) {
+	background-position: -55px 0px;
+}
+.payment-system:nth-child(3) {
+	background-position: -110px 0px;
+}
+.payment-system:nth-child(4) {
+	background-position: -165px 0px;
+}
+.payment-system:nth-child(5) {
+	background-position: -220px 0px;
+}
+
+
+.footer-1 a {
+	color: #868686;
+}
+
+.footer-1 svg {
+	fill: #757575;
+}

@@ -1,0 +1,30 @@
+/* about-us */
+.about-us__image-wrapper {
+	height: 280px;
+}
+
+.carousel-with-masonry-grid__image-left-wrapper {
+	height: 542px;
+}
+
+.carousel-with-masonry-grid__image-right-top-5-wrapper,
+.carousel-with-masonry-grid__image-right-top-7-wrapper {
+	height: 308px;
+}
+
+.carousel-with-masonry-grid__image-right-bottom-wrapper {
+	height: 220px;
+}
+
+.contacts-us__desc a {
+	color: #494949;
+}
+
+.contacts-us__form-button {
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.about-us svg {
+	fill: #757575;
+}

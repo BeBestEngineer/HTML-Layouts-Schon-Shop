@@ -1,0 +1,54 @@
+a, a:hover {
+	text-decoration: none;
+}
+
+
+ul, nav {
+	list-style: none;
+}
+ul {
+	padding: 0;
+}
+
+
+.image-wrapper {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.image {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.product-discont {
+	display: inline-block;
+	padding: 57px 31px;
+	border-radius: 50%;
+}
+.marker-discont {
+	display: inline-block;
+	padding: 2px 6px;
+}
+.marker-new {
+	display: inline-block;
+	padding: 2px 6px;
+}
+.marker-best-price {
+	display: inline-block;
+	padding: 2px 6px;
+}
+
+
+.rating-3-stars svg:nth-child(-n+3) {
+	fill: #c8a760;
+}
+
+

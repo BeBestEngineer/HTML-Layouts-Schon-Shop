@@ -1,0 +1,15 @@
+.logo-link {
+	height: 30px;
+}
+
+img.image-logo {
+	right: unset;
+}
+
+.header-1 a {
+	color: inherit;
+}
+
+.header-1 svg {
+	fill: #757575;
+}
