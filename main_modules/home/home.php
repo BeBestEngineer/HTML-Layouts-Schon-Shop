@@ -15,7 +15,7 @@
 
             <div class="item active"><!--сделаnm вместо div ссылку-->
               <div class="image-wrapper image-carousel-1-wrapper">
-                <img class="image" src="images/home/carousel-1/carousel-1(0).jpg" alt="...">
+                <img class="image" src="images/home/carousel-1/carousel-1(0).png" alt="...">
               </div>
               <div class="carousel-caption carousel-1-text">
                 <span class="text-source-sans-pro-semibold-14-up-ls-2  grey-838182">Furniture design ideas</span><br>
@@ -31,7 +31,7 @@
             <?php for ($i = 1; $i <= 2; ++$i): ?>
             <div class="item"><!--сделаnm вместо div ссылку-->
               <div class="image-wrapper image-carousel-1-wrapper">
-                <img class="image" src="images/home/carousel-1/carousel-1(<?php echo $i; ?>).jpg" alt="...">
+                <img class="image" src="images/home/carousel-1/carousel-1(<?php echo $i; ?>).png" alt="...">
               </div>
               <div class="carousel-caption carousel-1-text">
                 <span class="text-source-sans-pro-semibold-14-up-ls-2  grey-838182">Furniture design ideas</span><br>

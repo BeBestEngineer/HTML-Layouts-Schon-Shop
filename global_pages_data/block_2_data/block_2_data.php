@@ -39,6 +39,21 @@ class Block_2_data {
                     break;                    
                 }                    
             break;
+
+            case 'header-1':
+                switch ( $position ) {
+                    case 'dropdown-menu':
+                        $this -> block_2 = array (
+                            'path' => $this -> path,
+                            'image' => 'images/header/shopping-basket-dropdown-menu.png',
+                            'product-name' => 'Kurve table',
+                            'product-rating' => '4-stars',
+                            'product-price-without-discount' => '220,00',
+                            'product-price-with-discount' => '180,00'
+                        );
+                        break;
+                }
+            break;
         }
         return $this -> block_2;
     }

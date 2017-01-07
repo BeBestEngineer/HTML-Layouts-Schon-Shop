@@ -298,6 +298,7 @@
 .text-source-sans-pro-light-14 {
 	font-family: "Source Sans Pro Light";
 	font-size: 14px;
+	text-transform: none;
 }
 .text-source-sans-pro-light-44-up {
 	font-family: "Source Sans Pro Light";
@@ -404,6 +405,7 @@
 .text-source-sans-pro-semibold-14 {
 	font-family: "Source Sans Pro Semibold";
 	font-size: 14px;
+	text-transform: none;
 }
 
 .text-source-sans-pro-semibold-16 {

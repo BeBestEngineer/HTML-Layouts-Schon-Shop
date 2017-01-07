@@ -130,7 +130,7 @@
                       <path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/>
                     </svg>
                   </button>
-                  <input class="product__quantity-value  text-montserrat-bold-18-upper  grey-979797" type="text" value="2">
+                  <input class="product__quantity-value  text-montserrat-bold-18-upper  grey-979797" type="text" value="1">
                   <button class="product__quantity-less" type="button">
                     <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"/>
@@ -154,16 +154,16 @@
       <div class="col-lg-12">
         <div>
           <!-- Nav tabs -->
-          <ul class="nav  nav-tabs  product__info-tabs-titles" role="tablist">
-            <li role="presentation" class="active"><a class="text-montserrat-bold-16-cap  grey-959596" href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
-            <li role="presentation"><a class="text-montserrat-bold-16-cap  grey-959596" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Information</a></li>
+          <ul class="nav  nav-tabs  nav-justified  product__info-tabs-titles" role="tablist">
+            <li role="presentation"><a class="text-montserrat-bold-16-cap  grey-959596" href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+            <li role="presentation" class="active"><a class="text-montserrat-bold-16-cap  grey-959596" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Information</a></li>
             <li role="presentation"><a class="text-montserrat-bold-16-cap  grey-959596" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Reviews</a></li>
 
           </ul>
 
           <!-- Tab panes -->
-          <div class="tab-content  text-source-sans-pro-light-16 grey-696969">
-            <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="tab-content  product__tab-content  text-source-sans-pro-light-16 grey-696969">
+            <div role="tabpanel" class="tab-pane" id="home">
               <p>
                 Koila is a chair designed for restaurants and food lovers in general. Designed in collaboration with restaurant professionals, it ensures comfort and an ideal posture, as there are armrests on both sides of the chair.
               </p>
@@ -175,7 +175,7 @@
                 H 830 x L 585 x P 540 mm.
               </p>
             </div>
-            <div role="tabpanel" class="tab-pane" id="profile">
+            <div role="tabpanel" class="tab-pane  active" id="profile">
               <p>
                 Koila is a chair designed for restaurants and food lovers in general. Designed in collaboration with restaurant professionals, it ensures comfort and an ideal posture, as there are armrests on both sides of the chair.
               </p>
