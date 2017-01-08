@@ -1,9 +1,10 @@
 <li class="block-2">
     <div class="image-wrapper  block-2__image-wrapper">
-        <img class="image" src="<?php echo $block_2_data -> block_2['image']; ?>" alt="...">
+      <img class="image" src="<?php echo $block_2_data -> block_2['image']; ?>" alt="...">
     </div>
+
     <div class="block-2__desc-wrapper">
-        <h3 class="">
+        <h3 class="block-2__title-product">
           <a class="text-montserrat-regular-14-cap  grey-959596" href="#">
             <?php echo $block_2_data -> block_2['product-name']; ?>
           </a>

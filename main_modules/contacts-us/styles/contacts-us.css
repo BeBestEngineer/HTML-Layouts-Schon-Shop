@@ -1,1 +1,14 @@
 /* contacts-us */
+.contacts-us__wrapper {
+	padding: 75px 0px;
+}
+.contacts-us__title {
+	margin-bottom: 30px;
+}
+.contacts-us__desc-text {
+	margin-bottom: 60px;
+}
+.contacts-us__contacts-title {
+	display: block;
+	margin-bottom: 15px;
+}

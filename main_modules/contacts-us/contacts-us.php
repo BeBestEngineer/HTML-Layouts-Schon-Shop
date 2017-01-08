@@ -1,14 +1,16 @@
+<div class="container-fluid text-center">
+  <?php require $block_1_data -> Get_data( 'contacts-us', 'main-info' )['path']; ?>
+</div>
+
+
 <main class="contacts-us">
-  <div class="container-fluid text-center">
-    <?php require $block_1_data -> Get_data( 'contacts-us', 'main-info' )['path']; ?>
-  </div>
+  <div class="contacts-us__wrapper">
 
-  <div class="container">
-
-    <div class="row">
+    <div class="container">
+      <div class="row">
       <div class="col-lg-6">
         <section class="contacts-us__desc  text-sourse-sans-pro-regular-14  black-494949">
-          <h2 class="contacts-us__desc-title  text-montserrat-bold-30-upper  black-494949">Schon chaire maker</h2>
+          <h2 class="contacts-us__title  text-montserrat-bold-30-upper  black-494949">Schon chaire maker</h2>
 
           <p class="contacts-us__desc-text  ">
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -24,7 +26,7 @@
               </p>
             </div>
             <div class="col-lg-3">
-              <b class="contacts-us__contacts-title  text-myriad-pro-regular-16  black-757575">Phone</b><br>
+              <b class="contacts-us__contacts-title  text-myriad-pro-regular-16  black-757575">Phone</b
               <a href="tel:+15553332211" class="">
                 <span class="">
                   +1 (555) 333 22 11
@@ -33,7 +35,7 @@
               </a>
             </div>
             <div class="col-lg-3">
-              <b class="contacts-us__contacts-title  text-myriad-pro-regular-16  black-757575">E-mail</b><br>
+              <b class="contacts-us__contacts-title  text-myriad-pro-regular-16  black-757575">E-mail</b>
               <a href="mail" class="">
                 <span class="">
                   info@schon.chairs
@@ -46,8 +48,11 @@
       </div>
 
 
-      <div class="col-lg-6">
-        <h2 class="contacts-us__form-title  text-montserrat-bold-30-upper  black-494949">Have a questions?</h2>
+      <div class="col-lg-1"></div>
+
+
+      <div class="col-lg-5">
+        <h2 class="contacts-us__title  text-montserrat-bold-30-upper  black-494949">Have a questions?</h2>
 
 
         <form class="contacts-us__form" id="contacts-us-form-id">
@@ -72,6 +77,7 @@
         </form>
       </div>
 
+    </div>
     </div>
 
   </div>

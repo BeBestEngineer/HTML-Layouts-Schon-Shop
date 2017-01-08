@@ -6,10 +6,20 @@ a, a:hover {
 ul, nav {
 	list-style: none;
 }
-ul {
+ol, ul {
 	padding: 0;
+	margin: 0;
 }
-
+legend {
+	border: 0;
+	margin: 0;
+}
+label {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
 
 .image-wrapper {
 	position: relative;
@@ -55,4 +65,8 @@ ul {
 .schon-button {
 	display: inline-block;
 	padding: 10px 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
 }

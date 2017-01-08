@@ -2,29 +2,78 @@
 .about-us__image-wrapper {
 	height: 280px;
 }
-
 .carousel-with-masonry-grid__image-left-wrapper {
 	height: 542px;
 }
-
 .carousel-with-masonry-grid__image-right-top-5-wrapper,
 .carousel-with-masonry-grid__image-right-top-7-wrapper {
 	height: 308px;
 }
-
 .carousel-with-masonry-grid__image-right-bottom-wrapper {
 	height: 220px;
 }
-
 .contacts-us__desc a {
 	color: #494949;
 }
-
 .contacts-us__form-button {
 	display: inline-block;
 	padding: 10px 25px;
 }
-
 .about-us svg {
 	fill: #757575;
+}
+
+.about-us {
+	padding: 75px 0px;
+	padding-bottom: 160px;
+}
+.about-us__title,
+.about-us__text {
+	margin-bottom: 30px;
+}
+.follow-us__title {
+	display: block;
+	margin-bottom: 20px;
+}
+.social-icons__link {
+	display: inline-block;
+	margin-right: 15px;
+}
+.about-us__desc {
+	margin-bottom: 60px;
+}
+.about-us__our-team-title {
+	margin-bottom: 30px;
+}
+.about-us__image-wrapper {
+	margin-bottom: 20px;
+}
+.about-us__our-team {
+	margin-bottom: 60px;
+}
+.about-us__our-workspace-title {
+	margin-bottom: 30px;
+}
+
+.carousel-with-masonry-grid .carousel-indicators {
+	bottom: -89px;
+}
+li.carousel-with-masonry-grid__indicator-wrapper {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 40px 5px;
+	border: 0;
+}
+li.carousel-with-masonry-grid__indicator-wrapper.active {
+	width: auto;
+	height: auto;
+}
+.carousel-with-masonry-grid__indicator {
+	width: 90px;
+	height: 4px;
+	background-color: #d1d1d1;
+}
+li.carousel-with-masonry-grid__indicator-wrapper.active .carousel-with-masonry-grid__indicator {
+	background-color: #575757;
 }

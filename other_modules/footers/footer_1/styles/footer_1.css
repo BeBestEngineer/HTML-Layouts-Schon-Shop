@@ -55,7 +55,64 @@ body {
 .footer-1 a {
 	color: #868686;
 }
-
 .footer-1 svg {
 	fill: #757575;
+}
+
+
+.footer-1-main {
+	padding: 75px 0px;
+	background-color: #f6f6f6;
+}
+.footer-bottom-1 {
+	padding: 35px 0px;
+}
+.copyright-text {
+	margin: 5px 0 0 0;
+}
+
+.footer-1-main .image-wrapper {
+	margin-bottom: 25px;
+}
+.footer-1-main .social-icons {
+	margin-top: 20px;
+}
+
+.footer-titles {
+	display: block;
+	margin-bottom: 40px;
+}
+.social-group__item-icon,
+.social-group__item-text {
+	display: inline-block;
+	vertical-align: top;
+}
+.social-group__item-icon {
+	width: 10%;
+}
+.social-group__item-text {
+	width: 88%;
+}
+.social-group__item-text {
+	margin-bottom: 20px;
+}
+
+.product-tags__tag {
+	display: inline-block;
+	padding: 1px 15px;
+	border-radius: 15px;
+	border: 1px solid #818182;
+	margin-bottom: 3px;
+}
+
+.company-info__text {
+	display: inline-block;
+	width: 87%;
+}
+.footer-info-icons {
+	margin-left: 10px;
+}
+
+.company-info-adress__map-marker-icon {
+	vertical-align: top;
 }

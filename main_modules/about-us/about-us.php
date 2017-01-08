@@ -1,20 +1,19 @@
+<div class="container-fluid text-center">
+  <?php require $block_1_data -> Get_data( 'about-us', 'main-info' )['path']; ?>
+</div>
 <main class="about-us" >
-  <div class="container-fluid text-center">
-    <?php require $block_1_data -> Get_data( 'about-us', 'main-info' )['path']; ?>
-  </div>
-
 
   <div class="container">
     <section class="about-us__desc">
-      <h2 class="text-montserrat-bold-30-upper  black-494949">Who we are?</h2>
-      <p class="text-sourse-sans-pro-regular-14  black-494949">
+      <h2 class="about-us__title  text-montserrat-bold-30-upper  black-494949">Who we are?</h2>
+      <p class="about-us__text  text-sourse-sans-pro-regular-14  black-494949">
         Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulputate tortor quis, efficitur arcu sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Umco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
         <br><strong>Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem.</strong><br>
         Fusce mattis nunc lacus, vulputate facilisis dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at,
       </p>
 
       <div class="follow-us">
-        <b class="text-source-sans-pro-bold-16  black-494949">Follow us</b>
+        <b class="follow-us__title  text-source-sans-pro-bold-16  black-494949">Follow us</b>
         <div class="social-icons">
           <a class="social-icons__link" href="#">
             <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg>
@@ -41,7 +40,7 @@
 
 
     <section class="about-us__our-team">
-      <h2 class="text-montserrat-bold-30-upper  black-494949">Our team</h2>
+      <h2 class="about-us__our-team-title  text-montserrat-bold-30-upper  black-494949">Our team</h2>
       <div class="row">
 
         <?php for ($i = 0; $i <= 3; ++$i): ?>
@@ -72,9 +71,15 @@
           <div id="carousel-with-masonry-grid-id" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#carousel-1-id" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-1-id" data-slide-to="1"></li>
-              <li data-target="#carousel-1-id" data-slide-to="2"></li>
+              <li class="carousel-with-masonry-grid__indicator-wrapper  active" data-target="#carousel-with-masonry-grid-id" data-slide-to="0">
+                <div class="carousel-with-masonry-grid__indicator"></div>
+              </li>
+              <li class="carousel-with-masonry-grid__indicator-wrapper"         data-target="#carousel-with-masonry-grid-id" data-slide-to="1">
+                <div class="carousel-with-masonry-grid__indicator"></div>
+              </li>
+              <li class="carousel-with-masonry-grid__indicator-wrapper"         data-target="#carousel-with-masonry-grid-id" data-slide-to="2">
+                <div class="carousel-with-masonry-grid__indicator"></div>
+              </li>
             </ol>
 
             <!-- Wrapper for slides -->

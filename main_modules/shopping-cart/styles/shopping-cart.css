@@ -1,28 +1,198 @@
 /* shopping-cart */
-
+.button-text,
+.button-icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+.button-text {
+	margin-right: 10px;
+}
 .shopping-cart__image-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 79px;
 	height: 79px;
+	overflow: hidden;
+}
+.shopping-cart__image-wrapper img {
+	max-width: unset;
 }
 
-.process-circle {
+
+.shopping-cart__form-button svg,
+.shopping-cart__procwwd-checkout-button svg,
+.shopping-cart__update-button svg {
+	fill: #ffffff;
+}
+.shopping-cart__form-dropdown-icon {
+	fill: #838182;
+}
+
+.process {
+	position: relative;
+	padding-bottom: 75px;
+}
+.process a {
+	color: #838182;
+}
+.process__step {
+	display: inline-block;
+}
+.process__step-info {
+	display: block;
+	width: 120px;
+	margin-top: 15px;
+}
+.process__step:not(:last-child) {
+	margin-right: 130px;
+}
+.process__step:not(:last-child):after {
+	content: "";
+	position: absolute;
+	top: 42px;
+	display: inline-block;
+	width: 120px;
+	height: 1px;
+	background-color: #838182;
+	margin-left: 67px;
+}
+.process__step-link {
 	display: inline-block;
 	padding: 20px 28px;
 	border-radius: 50%;
 	border: 2px solid #838182;
 }
+.process__step.active .process__step-link {
+	color: #3a3a3a;
+	border: 2px solid #3a3a3a;
+}
+.process__step.active .process__step-info {
+	color: #3a3a3a;
+}
 
-.shopping-cart__apply-button,
-.shopping-cart__procwwd-checkout-button,
-.shopping-cart__update-button {
+.shopping-cart {
+	padding: 75px 0px;
+}
+.shopping-cart__form-apply-button {
+
+}
+.shopping-cart__procwwd-checkout-button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.shopping-cart__form-button {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.shopping-cart__item {
+	position: relative;
+	padding: 20px 0px;
+}
+.shopping-cart__item:first-child {
+	border-top: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+}
+.shopping-cart__item:not(:first-child) {
+	border-bottom: 1px solid #d1d1d1;
+}
+.shopping-cart__head {
+	padding-bottom: 20px;
+}
+.shopping-cart__col-product-photo {
+	position: static;
+}
+.shopping-cart__col-product-info {
+	padding: 29px 0px;
+	padding-right: 29px;
+}
+.shopping-cart__col-product-price {
+	position: static;
+}
+.shopping-cart__col-product-price .product-price {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 28px;
+	margin: auto;
+}
+.shopping-cart__col-product-quantity {
+	position: static;
+}
+.shopping-cart__col-product-quantity .product__quantity-buttons {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 40px;
+	margin: auto;
+}
+.shopping-cart__col-product-total-price {
+	position: static;
+}
+.shopping-cart__col-product-total-price .total-price {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 28px;
+	margin: auto;
+}
+.shopping-cart__col-product-actions {
+	position: static;
+}
+.shopping-cart__col-product-actions .shopping-cart__delete-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 25px;
+	margin: auto;
+}
+.shopping-cart__table {
+
+}
+.shopping-cart__form-apply-wrapper {
+	padding: 60px 0px;
+}
+.shopping-cart__form-apply {
 	display: inline-block;
-	padding: 10px 25px;
+}
+.shopping-cart__result-title {
+	display: block;
+	margin-bottom: 30px;
+}
+.shopping-cart__calculate {
+	position: relative;
+	padding-top: 60px;
+	border-top: 1px solid #d1d1d1;
+}
+.shopping-cart__form .input-group {
+	margin-bottom: 15px;
 }
 
-.shopping-cart__form svg {
-	fill: #a1a1a1;
+.shopping-cart__cart-result {
+	padding: 50px 40px;
+	margin-bottom: 70px;
+	border: 1px solid #d1d1d1;
 }
-
-.shopping-cart__procwwd-checkout-button svg,
-.shopping-cart__update-button svg {
-	fill: #ffffff;
+.shopping-cart__table-cart-result {
+	margin-bottom: 0;
+}
+.shopping-cart__table-cart-result tr:not(:last-child) {
+	border-top: 0;
+	border-bottom: 1px solid #9d9d9d;
+}
+.shopping-cart__table-cart-result td:last-child {
+	text-align: right;
+}
+.shopping-cart__table-cart-result tbody > tr > td {
+	vertical-align: middle;
+}
+.shopping-cart__table-cart-result tr:first-child th,
+.shopping-cart__table-cart-result tr:first-child td {
+	border-top: 0;
 }

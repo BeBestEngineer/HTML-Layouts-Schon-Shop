@@ -18,7 +18,9 @@
 	border: none;
 }
 
-
+.main-navbar .logo-link {
+	margin-top: 10px;
+}
 a.logo-link {
 	display: inline-block;
 	height: 30px;

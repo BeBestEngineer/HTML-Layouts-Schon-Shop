@@ -10,7 +10,7 @@
           </a>
 
 
-          <p class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
+          <p class="text-sourse-sans-pro-regular-14  grey-a0a0a0  text-justify">
             Exercitation ullamco laboris nisi ut aliquip ex
             commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -48,18 +48,18 @@
             <div class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
             <div class="social-group__item">
               <svg class="social-group__item-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg>
-              <div class="social-group__item-text">
-                <p class="">Laboris nisi ut <strong>#schön</strong> aliquip econsequat.</p>
+              <p class="social-group__item-text">
+                Laboris nisi ut <strong>#schön</strong> aliquip econsequat.
                 <strong><a class="" href="https://t.co/vreNJ9nEDt">https://t.co/vreNJ9nEDt</a></strong>
-              </div>
+              </p>
             </div>
 
             <div class="social-group__item">
               <svg class="social-group__item-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg>
-              <div class="social-group__item-text">
-                <p class="">Ficia deserunt mollit anim id est laborum. incididunt ut labore et dolore</p>
+              <p class="social-group__item-text">
+                Ficia deserunt mollit anim id est laborum. incididunt ut labore et dolore
                 <strong><a class="" href="https://t.co/vreNJ9nEDt">https://t.co/vreNJ9nEDt</a></strong>
-              </div>
+              </p>
             </div>
           </div>
           </div>
@@ -71,45 +71,45 @@
             <b class="footer-titles  text-myriad-pro-regular-16  black-757575">Product tags</b>
 
             <div class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
+              <a href="#" class="product-tags__tag">Chairs, stools & benches</a>
+              <a href="#" class="product-tags__tag">stairs </a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">stairs </a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Chairs, stools</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">stairs </a>
+              <a href="#" class="product-tags__tag">Chairs, stools & benches</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">stairs </a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
               <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
-              <a href="#" class="product-tags__tag">Sofas</a>
+              <a href="#" class="product-tags__tag">Chairs, stools & benches</a>
             </div>
 
           </div>
         </div>
 
 
-        <div class="col-lg-3">
+        <div class="col-lg-3  text-right">
           <div class="company-info">
             <b class="footer-titles  text-myriad-pro-regular-16  black-757575">Information</b>
             <div class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
             <div class="company-info-adress">
-              <p class="company-info-adress__text">
+              <p class="company-info__text">
                 Suite 18B, 148 Connaught Road Central<br>
                 New Yankee
               </p>
