@@ -12,3 +12,6 @@
 	display: block;
 	margin-bottom: 15px;
 }
+.contacts-us__form-textarea  {
+	resize: none;
+}

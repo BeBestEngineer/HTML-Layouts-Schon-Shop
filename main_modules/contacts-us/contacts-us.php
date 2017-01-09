@@ -56,21 +56,20 @@
 
 
         <form class="contacts-us__form" id="contacts-us-form-id">
-
           <div class="form-group">
-            <input type="text" class="form-control" id="" name="contacts-us-name" placeholder="Name">
+            <input type="text" class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="" name="contacts-us-name" placeholder="Name">
           </div>
 
           <div class="form-group">
-            <input type="email" class="form-control" id="" name="contacts-us-e-mail" placeholder="E-mail">
+            <input type="email" class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="" name="contacts-us-e-mail" placeholder="E-mail">
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="" name="contacts-us-sebject" placeholder="Subject">
+            <input type="text" class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="" name="contacts-us-sebject" placeholder="Subject">
           </div>
 
           <div class="form-group">
-            <textarea class="form-control" rows="3" id="" name="contacts-us-message" placeholder="Message"></textarea>
+            <textarea class="form-control  forms-input  contacts-us__form-textarea  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" rows="3" id="" name="contacts-us-message" placeholder="Message"></textarea>
           </div>
 
           <button type="submit" class="contacts-us__form-button  text-montserrat-bold-18-upper  white-ffffff  black-282828-bg">Send</button>

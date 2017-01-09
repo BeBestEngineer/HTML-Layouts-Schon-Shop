@@ -54,7 +54,7 @@
 	margin-bottom: 5px;
 }
 
-/*Check box styles ( begin ) */
+
 .aside-filter-option {
 	padding: 5px;
 	transition: background-color .25s;
@@ -62,55 +62,6 @@
 .aside-filter-option:hover {
 	background-color: lightgray;
 }
-.aside-input {
-	display: none;
-}
-.aside-label {
-	padding-left: 0;
-	margin-bottom: 0;
-	font-weight: normal;
-}
-.aside-label .cr {
-	position: relative;
-	display: inline-block;
-	border: 1px solid #a9a9a9;
-	border-radius: .25em;
-	width: 1.0em;
-	height: 1.0em;
-	float: left;
-	margin-right: .5em;
-	top: 0.3em;
-}
-.aside-label .cr .cr-icon {
-	position: absolute;
-	font-size: 1.1em;
-	line-height: 0;
-	top: 35%;
-	left: 10%;
-}
-.aside-input + .cr > .cr-icon {
-	transform: scale(3) rotateZ(-20deg);
-	opacity: 0;
-	transition: all .3s ease-in;
-}
-.aside-input:checked + .cr > .cr-icon {
-	transform: scale(1) rotateZ(0deg);
-	opacity: 1;
-}
-.aside-input:disabled + .cr {
-	opacity: .5;
-}
-.glyphicon-ok::before {
-	content: " ";
-	position: relative;
-	bottom: 7px;
-	right: 1px;
-	display: inline-block;
-	width: 14px;
-	height: 14px;
-	background: url("icons/check.svg") no-repeat;
-}
-/*Check box styles ( end ) */
 
 
 /*price-regulator (b)*/

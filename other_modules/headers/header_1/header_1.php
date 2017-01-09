@@ -3,7 +3,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
 
     <div class="row">
-      <div class="col-lg-2">
+      <div class="col-lg-2  col-sm-2">
         <a class="image-wrapper  logo-link" href="?page=home">
           <img class="image  image-logo" src="images/header/logo-color.png" alt="logo-color">
         </a>
@@ -34,20 +34,30 @@
             <div class="dropdown-menu  dropdown-search-wrapper">
               <div class="row">
                 <div class="col-lg-6  col-lg-offset-3">
-                  <form class="form-inline">
+                  <form class="form-horizontal">
+
                     <div class="form-group">
-                      <input type="text" class="form-control" id="dropdown-search-input" placeholder="Search">
+                      <div class="col-xs-11">
+                        <input type="text" class="form-control  dropdown-search__input  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="dropdown-search-input" placeholder="Search">
+                      </div>
+
+                      <div class="col-xs-1">
+                        <button type="button" class="dropdown-search__button  dropdown-search__button-voice  transparent-button">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1472 704v128q0 221-147.5 384.5t-364.5 187.5v132h256q26 0 45 19t19 45-19 45-45 19h-640q-26 0-45-19t-19-45 19-45 45-19h256v-132q-217-24-364.5-187.5t-147.5-384.5v-128q0-26 19-45t45-19 45 19 19 45v128q0 185 131.5 316.5t316.5 131.5 316.5-131.5 131.5-316.5v-128q0-26 19-45t45-19 45 19 19 45zm-256-384v512q0 132-94 226t-226 94-226-94-94-226v-512q0-132 94-226t226-94 226 94 94 226z"/>
+                          </svg>
+                        </button>
+                          <button type="submit" class="dropdown-search__button  dropdown-search__button-search  transparent-button">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/>
+                          </svg>
+                        </button>
+                      </div>
+
                     </div>
-                    <button type="button" class="">
-                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1472 704v128q0 221-147.5 384.5t-364.5 187.5v132h256q26 0 45 19t19 45-19 45-45 19h-640q-26 0-45-19t-19-45 19-45 45-19h256v-132q-217-24-364.5-187.5t-147.5-384.5v-128q0-26 19-45t45-19 45 19 19 45v128q0 185 131.5 316.5t316.5 131.5 316.5-131.5 131.5-316.5v-128q0-26 19-45t45-19 45 19 19 45zm-256-384v512q0 132-94 226t-226 94-226-94-94-226v-512q0-132 94-226t226-94 226 94 94 226z"/>
-                      </svg>
-                    </button>
-                    <button type="submit" class="">
-                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/>
-                      </svg>
-                    </button>
+
+
+
                   </form>
                 </div>
               </div>
@@ -71,12 +81,12 @@
                 <li class="shopping-basket-dropdown__item">
                   <div class="container-fluid">
                   <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                       <div class="image-wrapper  shopping-basket-dropdown__image-wrapper">
                         <img class="image" src="images/header/shopping-basket-dropdown-menu.png" alt="...">
                       </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-6">
                       <div class="shopping-basket-dropdown__desc-wrapper">
                         <h3 class="">
                           <a class="text-source-sans-pro-semibold-14  grey-757575" href="#">Kitchen KNOXHULT</a>
@@ -111,15 +121,17 @@
 
 
               <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <span class="text-source-sans-pro-semibold-14  grey-757575">Sub total</span>
-                  </div>
-                  <div class="col-lg-6  text-right">
-                    <span class="text-montserrat-bold-18-upper  black-000000">
-                      <span class="">$</span>
-                      <span class="">2550</span>
-                    </span>
+                <div class="shopping-bag-dropdown-menu__sub-total-price">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <span class="text-source-sans-pro-semibold-14  grey-757575">Sub total</span>
+                    </div>
+                    <div class="col-lg-6  text-right">
+                      <span class="text-montserrat-bold-18-upper  black-000000">
+                        <span class="">$</span>
+                        <span class="">2550</span>
+                      </span>
+                    </div>
                   </div>
                 </div>
 
@@ -226,25 +238,37 @@
             <div role="tabpanel" class="tab-pane  login-modal__tab-pane active" id="sign-in">
               <div class="row">
                 <div class="col-lg-6  col-lg-offset-3">
-                <p class="text-source-sans-pro-light-14  grey-757575">Welcome back! Sign in to Your Account</p>
+                <p class="login-modal__form-title  text-source-sans-pro-light-14  grey-757575">Welcome back! Sign in to Your Account</p>
+
                 <form class="sign-in-form  form-horizontal" id="sign-in-form-id">
                   <div class="form-group">
-                    <input type="email" class="form-control" id="sign-in-username" placeholder="Username or e-mail address">
+                    <input type="email"    class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="sign-in-username" placeholder="Username or e-mail address">
                   </div>
                   <div class="form-group">
-                    <input type="password" class="form-control" id="sign-in-password" placeholder="Password">
+                    <input type="password" class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="sign-in-password" placeholder="Password">
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-lg-8">
                         <div class="checkbox">
-                          <label class="text-oxygen-regular-12  grey-9c9c9c">
-                            <input type="checkbox"> Remember me
+                          <!--
+                          <label   class="sign-in-form__label-checkbox  text-oxygen-regular-12  grey-9c9c9c">
+                            <input class="sign-in-form__checkbox" type="checkbox"> Remember me
+                          </label>
+                          -->
+                          <label class="sign-in-form__label-checkbox  schon-label  text-oxygen-regular-12  grey-9c9c9c  clearfix">
+                            <input class="schon-input" type="checkbox">
+                            <span class="sign-in-form__cr  cr">
+                              <i class="sign-in-form__cr-icon  cr-icon glyphicon-ok"></i>
+                            </span>
+                            Remember me
                           </label>
                         </div>
                       </div>
-                      <div class="col-lg-4">
-                        <a href="#" class="form-control-static  text-oxygen-regular-12  grey-9c9c9c">Help?</a>
+                      <div class="col-lg-4  text-right">
+                        <p class="form-control-static">
+                          <a href="#" class="  text-oxygen-regular-12  grey-9c9c9c">Help?</a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -252,16 +276,51 @@
                     <button type="submit" class="schon-button  white-ffffff  black-282828-bg">Login</button>
                   </div>
                 </form>
+
+<!--
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-4">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"> Remember me
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <p class="form-control-static">email@example.com</p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                      </div>
+                    </div>
+                  </form>
+            -->
+
                 </div><!--col-lg-6-->
               </div><!--row-->
             </div>
             <div role="tabpanel" class="tab-pane  login-modal__tab-pane" id="create-account">
               <div class="row">
                 <div class="col-lg-6  col-lg-offset-3">
-                  <p class="text-source-sans-pro-light-14  grey-757575">Create your very own account</p>
-                  <form class="sign-in-form  form-horizontal" id="sign-in-form-id">
+                  <p class="login-modal__form-title  text-source-sans-pro-light-14  grey-757575">Create your very own account</p>
+                  <form class="create-account-form  form-horizontal" id="sign-in-form-id">
                     <div class="form-group">
-                      <input type="email" class="form-control" id="register-input" placeholder="Phone number or e-mail address">
+                      <input type="email tel" class="form-control  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="register-input" placeholder="Phone number or e-mail address">
                     </div>
                     <div class="form-group">
                       <button type="submit" class="schon-button  white-ffffff  black-282828-bg">Register</button>

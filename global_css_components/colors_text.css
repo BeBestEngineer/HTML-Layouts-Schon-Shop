@@ -182,3 +182,16 @@
 .placeholder-color-9d9d9d:-ms-input-placeholder {
 	color:#9d9d9d;
 }
+
+.placeholder-color-909090::-webkit-input-placeholder {
+	color:#909090;
+}
+.placeholder-color-909090::-moz-placeholder {
+	color:#909090;
+}
+.placeholder-color-909090:-moz-placeholder {
+	color:#909090;
+}
+.placeholder-color-909090:-ms-input-placeholder {
+	color:#909090;
+}

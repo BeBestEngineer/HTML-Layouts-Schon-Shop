@@ -65,8 +65,70 @@ p {
 .schon-button {
 	display: inline-block;
 	padding: 10px 25px;
+	border: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
+}
+
+/*Check box styles ( begin ) */
+.schon-input {
+	display: none;
+}
+.schon-label {
+	padding-left: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+.schon-label .cr {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #a9a9a9;
+	border-radius: .25em;
+	width: 1.0em;
+	height: 1.0em;
+	float: left;
+	margin-right: .5em;
+	top: 0.3em;
+}
+.schon-label .cr .cr-icon {
+	position: absolute;
+	font-size: 1.1em;
+	line-height: 0;
+	top: 35%;
+	left: 10%;
+}
+.schon-input + .cr > .cr-icon {
+	transform: scale(3) rotateZ(-20deg);
+	opacity: 0;
+	transition: all .3s ease-in;
+}
+.schon-input:checked + .cr > .cr-icon {
+	transform: scale(1) rotateZ(0deg);
+	opacity: 1;
+}
+.schon-input:disabled + .cr {
+	opacity: .5;
+}
+.glyphicon-ok::before {
+	content: " ";
+	position: relative;
+	bottom: 7px;
+	right: 1px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url("icons/check.svg") no-repeat;
+}
+/*Check box styles ( end ) */
+
+.transparent-button {
+	background-color: transparent;
+	border: 0;
+}
+
+.forms-input {
+	padding: 10px 10px;
+	height: auto;
 }

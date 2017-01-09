@@ -110,11 +110,11 @@
         <div class="shopping-cart__form-apply-wrapper  text-center">
           <form class="form-inline  shopping-cart__form-apply">
           <div class="form-group">
-            <input type="text" class="form-control" id="" placeholder="You coupon code">
+            <input type="text" class="form-control     form-input-middle  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="" placeholder="You coupon code">
+            <button type="submit" class="schon-button  form-button-middle  shopping-cart__form-apply-button  text-montserrat-bold-18-upper  white-ffffff  yellow-cba233">
+              <span class="">Apply</span>
+            </button>
           </div>
-          <button type="submit" class="schon-button  shopping-cart__form-apply-button  text-montserrat-bold-18-upper  white-ffffff  yellow-cba233">
-            <span class="">Apply</span>
-          </button>
         </form>
         </div>
       </div>
@@ -129,9 +129,9 @@
           <form class="shopping-cart__form" action="">
 
             <div class="input-group">
-              <input type="text" class="form-control" aria-label="..." placeholder="Select country">
+              <input type="text" class="form-control  shopping-cart__form-input  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" aria-label="..." placeholder="Select country">
               <div class="input-group-btn">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="shopping-cart__form-dropdown-button  btn  btn-default  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <svg class="shopping-cart__form-dropdown-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"/>
                   </svg>
@@ -150,9 +150,9 @@
             </div><!-- /input-group -->
 
             <div class="input-group">
-              <input type="text" class="form-control" aria-label="..." placeholder="State/Province">
+              <input type="text" class="form-control  shopping-cart__form-input  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" aria-label="..." placeholder="State/Province">
               <div class="input-group-btn">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="shopping-cart__form-dropdown-button  btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <svg class="shopping-cart__form-dropdown-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"/>
                   </svg>
@@ -170,9 +170,9 @@
             </div><!-- /input-group -->
 
             <div class="input-group">
-              <input type="text" class="form-control" aria-label="..." placeholder="Zip/Postal code">
+              <input type="text" class="form-control  shopping-cart__form-input  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" aria-label="..." placeholder="Zip/Postal code">
               <div class="input-group-btn">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="shopping-cart__form-dropdown-button  btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <svg class="shopping-cart__form-dropdown-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"/>
                   </svg>

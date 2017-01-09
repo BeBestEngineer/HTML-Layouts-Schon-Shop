@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Schon Shop HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--
+  960 - point 1
+-->
   <!--third-components-->
   <link rel="stylesheet" href="global_third_components/libs/normalize-css/normalize.css">
   <link rel="stylesheet" href="global_third_components/frameworks/bootstrap/dist/css/bootstrap.min.css">
@@ -26,6 +30,7 @@
   <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansProRegular/stylesheet.css">
   <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansSemiBold/stylesheet.css">
   <!--global styles-->
+  <link rel="stylesheet" href="global_css_components/main.css">
   <link rel="stylesheet" href="global_css_components/images.css">
   <link rel="stylesheet" href="global_css_components/colors_background.css">
   <link rel="stylesheet" href="global_css_components/colors_text.css">
@@ -46,7 +51,5 @@
   <!--blocks-->
   <link rel="stylesheet" href="other_modules/custom_modules/block_1/styles/block_1.css">
   <link rel="stylesheet" href="other_modules/custom_modules/block_2/styles/block_2.css">
-  <!--last global styles-->
-  <link rel="stylesheet" href="global_css_components/main.css">
 </head>
 <body>

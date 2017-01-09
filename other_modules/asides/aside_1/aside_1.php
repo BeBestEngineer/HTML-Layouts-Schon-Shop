@@ -11,8 +11,8 @@
             <li class="aside-filter-option">
               <div class="row">
                 <div class="col-lg-9">
-                  <label class="aside-label clearfix">
-                    <input class="aside-input" type="checkbox">
+                  <label class="schon-label clearfix">
+                    <input class="schon-input" type="checkbox">
                     <span class="cr">
                       <i class="cr-icon glyphicon-ok"></i>
                     </span>
