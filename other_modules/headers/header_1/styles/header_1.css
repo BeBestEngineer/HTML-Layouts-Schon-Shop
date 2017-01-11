@@ -45,6 +45,11 @@ a.logo-link {
 img.image-logo {
 	right: unset;
 }
+@media (max-width: 767px) {
+	.footer-1 img.image-logo {
+		right: 0;
+	}
+}
 
 /*products-list dropdown-menu (b)*/
 .dropdown-menu.products-lists__dropdown-menu {
