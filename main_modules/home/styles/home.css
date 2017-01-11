@@ -289,8 +289,9 @@ li.carousel-1__indicator.active {
 .block-2 {
 	margin-bottom: 30px;
 }
-.featured-product__title-column {
-	margin-bottom: 25px;
+.featured-product__title-home {
+	display: block;
+	margin-bottom: 30px;
 }
 div.block-2__image-wrapper,
 .block-2__desc-wrapper {

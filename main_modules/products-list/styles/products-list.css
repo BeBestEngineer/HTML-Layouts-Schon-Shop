@@ -72,6 +72,17 @@
 	content: "/";
 	margin-left: 5px;
 }
+@media (max-width: 767px) {
+	.products-list__results,
+	.products-list__page-results,
+	.product-list__options-list-wrapper {
+		text-align: center;
+	}
+	.products-list__page-results {
+		margin-bottom: 30px;
+	}
+
+}
 /*products-list-options (e)*/
 
 

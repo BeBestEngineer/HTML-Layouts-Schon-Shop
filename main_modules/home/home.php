@@ -310,15 +310,13 @@
 
 
   <div class="container">
-    <div class="featured-products">
+    <section class="featured-products">
       <div class="row">
         <?php for ($i = 0; $i <= 3; ++$i): ?>
         <div class="col-lg-3  col-sm-6">
           <article class="featured-product">
-            <h2 class="featured-product__title-column  text-montserrat-bold-20-cap  black-3a3a3a">Featured products</h2>
-
-
-            <ul class="featured-products__list">
+            <b class=" featured-product__title-home  text-montserrat-bold-20-cap  black-3a3a3a">Featured products</b>
+            <ul class="featured-products__list-home">
 
               <?php for ($j = 0; $j <= 2; ++$j): ?>
                 <?php require $block_2_data -> Get_data( 'home', 'last-section' )['path']; ?>
@@ -330,6 +328,6 @@
         </div>
         <? endfor; ?>
       </div>
-    </div>
+    </section>
   </div>
 </main>

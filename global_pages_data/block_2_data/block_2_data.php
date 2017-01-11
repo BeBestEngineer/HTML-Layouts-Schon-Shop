@@ -19,7 +19,8 @@ class Block_2_data {
                             'product-rating' => '4-stars',
                             'product-price-without-discount' => '111,00',
                             'product-price-with-discount' => '53,00',
-                            'class-for-xs-sm-screens' => ''
+                            'class-for-xs-sm-screens' => '',
+                            'class-for-xs-sm-screens' => 'block-2-inline-block'
                         );
                     break;
                     

@@ -42,7 +42,7 @@
                 </div>
               </div>
               <div class="col-xs-4  text-right">
-                <button class="pdoduct-filter-1__button text-myriad-pro-regular-14  white-ffffff  black-3a3a3a-bg" type="submit">Filter</button>
+                <button class="schon-button  text-myriad-pro-regular-14  white-ffffff  black-3a3a3a-bg" type="submit">Filter</button>
               </div>
             </div>
           </fieldset>
@@ -76,9 +76,9 @@
   </div>
 
 
-  <section class="aside-section  hot-sale">
-    <b class="aside-title  text-montserrat-bold-23-upper  black-494949">Hot sale</b>
-    <ul class="featured-products__list">
+  <section class="aside-section  hot-sale-products">
+    <b class=" hot-sale-products__title-aside  aside-title  text-montserrat-bold-23-upper  black-494949">Hot sale</b>
+    <ul class="hot-sale-products__list-aside">
 
       <?php for ($j = 0; $j <= 4; ++$j): ?>
         <?php require $block_2_data -> Get_data( 'products-list', 'sidebar-bottom' )['path']; ?>

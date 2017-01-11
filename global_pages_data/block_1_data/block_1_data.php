@@ -9,6 +9,7 @@ class Block_1_data {
 
     public function Get_data( $page, $position ) {
         switch ( $page ) {
+            /*
             case 'home':
                 switch ( $position ) {
                     case 'main-info':
@@ -34,6 +35,32 @@ class Block_1_data {
                     break;
                 }
             break;
+            */
+            case 'products-list':
+                switch ( $position ) {
+                    case 'main-info':
+                        $this -> block_1 = array (
+                            'path' => $this -> path,
+                            'title' => 'Chairs',
+                            'breadcrumbs' => array ( 'home', 'products' ),
+                            'last-breadcrumb' => 'Chairs'
+                        );
+                        break;
+                }
+                break;
+
+            case 'shopping-cart':
+                switch ( $position ) {
+                    case 'main-info':
+                        $this -> block_1 = array (
+                            'path' => $this -> path,
+                            'title' => 'Shopping cart',
+                            'breadcrumbs' => array ( 'home' ),
+                            'last-breadcrumb' => 'Shopping cart'
+                        );
+                        break;
+                }
+            break;
 
             case 'about-us':
                 switch ( $position ) {
@@ -41,21 +68,8 @@ class Block_1_data {
                         $this -> block_1 = array (
                             'path' => $this -> path,
                             'title' => 'About us',
-                            'breadcrumbs' => array ( 'home', 'about us', '' )
-                        );
-                    break;
-                    case 'section-1-info':
-                        $this -> block_1 = array (
-                            'path' => $this -> path,
-                            'title' => 'Section 1 title',
-                            'breadcrumbs' => array ( 'home', 'section 1 title', '' )
-                        );
-                    break;
-                    case 'section-2-info':
-                        $this -> block_1 = array (
-                            'path' => $this -> path,
-                            'title' => 'Section 2 title',
-                            'breadcrumbs' => array ( 'home', 'section 2 title', '' )
+                            'breadcrumbs' => array ( 'home' ),
+                            'last-breadcrumb' => 'About us'
                         );
                     break;
                 }                    
@@ -67,31 +81,8 @@ class Block_1_data {
                         $this -> block_1 = array (
                             'path' => $this -> path,
                             'title' => 'Contact',
-                            'breadcrumbs' => array ( 'home', 'Contact', '' )
-                        );
-                    break;                    
-                }                    
-            break;                
-                
-            case 'products-list':
-                switch ( $position ) {
-                    case 'main-info':
-                        $this -> block_1 = array (
-                            'path' => $this -> path,
-                            'title' => 'Chairs',
-                            'breadcrumbs' => array ( 'home', 'products', 'chairs' )
-                        );
-                    break;                    
-                }                    
-            break;
-                
-            case 'shopping-cart':
-                switch ( $position ) {
-                    case 'main-info':
-                        $this -> block_1 = array (
-                            'path' => $this -> path,
-                            'title' => 'Shopping cart',
-                            'breadcrumbs' => array ( 'home', 'shopping cart', '' )
+                            'breadcrumbs' => array ( 'home' ),
+                            'last-breadcrumb' => 'Contact us'
                         );
                     break;                    
                 }                    
@@ -106,5 +97,3 @@ $block_1_data = new Block_1_data();
 
 
 ?>
-
-<?php //require $block_1_data -> Get_data( 'home', 'section-2-info' )['path']; ?>

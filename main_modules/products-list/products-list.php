@@ -32,8 +32,8 @@
                 <a href="#" class="products-list__view-results-value  text-myriad-pro-regular-14  grey-a5a5a5">All</a>
               </div>
             </div>
-            <div class="col-lg-2  hidden-md  hidden-sm"></div>
-            <div class="col-lg-6  col-sm-6  text-right">
+            <div class="col-lg-2  hidden-md  hidden-sm  hidden-xs"></div>
+            <div class="col-lg-6  col-sm-6  text-right  product-list__options-list-wrapper">
               <div class="btn-group  product-list__options-list">
                 <div class="sorting-options-list-wrapper">
                   <button type="button" class="btn btn-default dropdown-toggle sorting-options-button  grey-a5a5a5" data-toggle="dropdown">
