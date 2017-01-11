@@ -4,14 +4,18 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
+
+
+      <div class="col-md-4">
         <?php require_once 'other_modules/asides/aside_1/aside_1.php'; ?>
       </div>
-      <div class="col-lg-9">
+
+
+      <div class="col-md-8">
 
         <div class="products-list-options  text-myriad-pro-regular-14  grey-a5a5a5">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4  col-sm-6">
               <div class="products-list__results">
                 Showing
                 <b><span class="products-list__begining-results-value">1</span></b>
@@ -28,8 +32,8 @@
                 <a href="#" class="products-list__view-results-value  text-myriad-pro-regular-14  grey-a5a5a5">All</a>
               </div>
             </div>
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4  text-right">
+            <div class="col-lg-2  hidden-md  hidden-sm"></div>
+            <div class="col-lg-6  col-sm-6  text-right">
               <div class="btn-group  product-list__options-list">
                 <div class="sorting-options-list-wrapper">
                   <button type="button" class="btn btn-default dropdown-toggle sorting-options-button  grey-a5a5a5" data-toggle="dropdown">
@@ -60,7 +64,7 @@
         <div class="products-list">
           <div class="row">
           <?php for ($j = 0; $j <= 14; ++$j): ?>
-            <div class="col-lg-4">
+            <div class="col-lg-4  col-sm-6">
               <article class="product-item-square-1">
 
                 <div class="image-wrapper product-item-square-1__image-wrapper">
@@ -117,6 +121,8 @@
         </nav>
 
       </div>
+
+
     </div>
   </div>
 </main>

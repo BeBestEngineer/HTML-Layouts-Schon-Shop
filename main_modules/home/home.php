@@ -88,9 +88,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="masonry-4-grid-1__middle-part  col-lg-4">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12  col-sm-6">
               <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-2">
                 <div class="image-wrapper  masonry-4-grid-1__image-wrapper-2">
                   <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x230">
@@ -109,7 +109,7 @@
 
               </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12  col-sm-6">
               <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-3">
                 <div class="image-wrapper  masonry-4-grid-1__image-wrapper-2">
                   <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x230">
@@ -313,7 +313,7 @@
     <div class="featured-products">
       <div class="row">
         <?php for ($i = 0; $i <= 3; ++$i): ?>
-        <div class="col-lg-3">
+        <div class="col-lg-3  col-sm-6">
           <article class="featured-product">
             <h2 class="featured-product__title-column  text-montserrat-bold-20-cap  black-3a3a3a">Featured products</h2>
 

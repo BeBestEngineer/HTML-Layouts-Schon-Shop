@@ -16,10 +16,10 @@
         </button>
       </div>
 
-      <div class="col-lg-10  position-static">
-        <div class="collapse  navbar-collapse  position-static" id="bs-example-navbar-collapse-1">
 
-          <ul class="nav  navbar-nav  navbar-right">
+        <div class="collapse  navbar-collapse" style="position: static;" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav  navbar-nav   navbar-right  sub-menu">
 
           <!--Search-->
           <li class="dropdown  dropdown-search">
@@ -33,7 +33,7 @@
             </a>
             <div class="dropdown-menu  dropdown-search-wrapper">
               <div class="row">
-                <div class="col-lg-6  col-lg-offset-3">
+                <div class="col-md-6  col-md-offset-3  col-sm-8  col-sm-offset-2">
                   <form class="form-horizontal">
 
                     <div class="form-group">
@@ -81,12 +81,12 @@
                 <li class="shopping-basket-dropdown__item">
                   <div class="container-fluid">
                   <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-xs-4">
                       <div class="image-wrapper  shopping-basket-dropdown__image-wrapper">
                         <img class="image" src="images/header/shopping-basket-dropdown-menu.png" alt="...">
                       </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xs-6">
                       <div class="shopping-basket-dropdown__desc-wrapper">
                         <h3 class="">
                           <a class="text-source-sans-pro-semibold-14  grey-757575" href="#">Kitchen KNOXHULT</a>
@@ -105,7 +105,7 @@
                         </span>
                       </div>
                     </div>
-                    <div class="col-lg-2  text-right">
+                    <div class="col-xs-2  text-right">
                       <a href="#" class="shopping-basket-dropdown__delete-item">
                         <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"></path>
@@ -136,10 +136,10 @@
                 </div>
 
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-xs-6">
                     <a class="schon-button  text-montserrat-bold-18-upper  white-ffffff  black-282828-bg" href="?page=shopping-cart">View cart</a>
                   </div>
-                  <div class="col-lg-6  text-right">
+                  <div class="col-xs-6  text-right">
                     <a class="schon-button  text-montserrat-bold-18-upper  white-ffffff  black-282828-bg" href="#">Checkout</a>
                   </div>
                 </div>
@@ -168,7 +168,7 @@
 
         </ul>
 
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav  navbar-right  main-menu">
   <!--        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
 
   <!--        <li><a href="#">Link</a></li>-->
@@ -182,7 +182,7 @@
                 <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"></path>
               </svg>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu  products-lists__dropdown-menu">
                 <li><a href="?page=products-list">Kitchen & Worktops</a></li>
                 <li><a href="?page=products-list">Indoor gardening</a></li>
 
@@ -213,14 +213,14 @@
         </ul>
 
         </div><!-- /.navbar-collapse -->
-      </div>
+
     </div>
   </div><!-- /.container-fluid -->
 
 
 
   <div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog " role="document">
       <div class="modal-content">
         <div>
           <!-- Nav tabs -->
@@ -237,7 +237,7 @@
           <div class="tab-content  login-modal__tab-content">
             <div role="tabpanel" class="tab-pane  login-modal__tab-pane active" id="sign-in">
               <div class="row">
-                <div class="col-lg-6  col-lg-offset-3">
+                <div class="col-sm-8  col-sm-offset-2  col-xs-10  col-xs-offset-1">
                 <p class="login-modal__form-title  text-source-sans-pro-light-14  grey-757575">Welcome back! Sign in to Your Account</p>
 
                 <form class="sign-in-form  form-horizontal" id="sign-in-form-id">
@@ -249,7 +249,7 @@
                   </div>
                   <div class="form-group">
                     <div class="row">
-                      <div class="col-lg-8">
+                      <div class="col-sm-8">
                         <div class="checkbox">
                           <!--
                           <label   class="sign-in-form__label-checkbox  text-oxygen-regular-12  grey-9c9c9c">
@@ -265,7 +265,7 @@
                           </label>
                         </div>
                       </div>
-                      <div class="col-lg-4  text-right">
+                      <div class="col-sm-4  text-right">
                         <p class="form-control-static">
                           <a href="#" class="  text-oxygen-regular-12  grey-9c9c9c">Help?</a>
                         </p>
@@ -316,7 +316,7 @@
             </div>
             <div role="tabpanel" class="tab-pane  login-modal__tab-pane" id="create-account">
               <div class="row">
-                <div class="col-lg-6  col-lg-offset-3">
+                <div class="col-sm-8  col-sm-offset-2  col-xs-10  col-xs-offset-1">
                   <p class="login-modal__form-title  text-source-sans-pro-light-14  grey-757575">Create your very own account</p>
                   <form class="create-account-form  form-horizontal" id="sign-in-form-id">
                     <div class="form-group">

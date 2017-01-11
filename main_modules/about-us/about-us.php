@@ -44,7 +44,7 @@
       <div class="row">
 
         <?php for ($i = 0; $i <= 3; ++$i): ?>
-          <div class="col-lg-3">
+          <div class="col-md-3  col-sm-6">
             <article class="about-us__member-of-team">
               <div class="image-wrapper  about-us__image-wrapper">
                 <img class="image" src="images/about-us/our-team-member.jpg" alt="product-item">
@@ -92,23 +92,23 @@
                   <div class="container">
                     <div class="row">
 
-                      <div class="col-lg-6">
+                      <div class="col-md-6">
                         <div class="image-wrapper  carousel-with-masonry-grid__image-left-wrapper">
                           <img class="image" src="images/about-us/our-workspace.png" alt="...">
                         </div>
                       </div>
 
 
-                      <div class="col-lg-6">
+                      <div class="col-md-6  ">
                         <div class="row">
 
-                          <div class="col-lg-5">
+                          <div class="col-md-5  col-sm-6">
                             <div class="image-wrapper  carousel-with-masonry-grid__image-right-top-5-wrapper">
                               <img class="image" src="images/about-us/our-workspace.png" alt="...">
                             </div>
                           </div>
 
-                          <div class="col-lg-7">
+                          <div class="col-md-7  col-sm-6">
                             <div class="image-wrapper carousel-with-masonry-grid__image-right-top-7-wrapper">
                               <img class="image" src="images/about-us/our-workspace.png" alt="...">
                             </div>
@@ -138,23 +138,23 @@
                     <div class="container">
                       <div class="row">
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6 ">
                           <div class="image-wrapper  carousel-with-masonry-grid__image-left-wrapper">
                             <img class="image" src="images/about-us/our-workspace.png" alt="...">
                           </div>
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                           <div class="row">
 
-                            <div class="col-lg-5">
+                            <div class="col-md-5  col-sm-6">
                               <div class="image-wrapper  carousel-with-masonry-grid__image-right-top-5-wrapper">
                                 <img class="image" src="images/about-us/our-workspace.png" alt="...">
                               </div>
                             </div>
 
-                            <div class="col-lg-7">
+                            <div class="col-md-7 col-sm-6">
                               <div class="image-wrapper carousel-with-masonry-grid__image-right-top-7-wrapper">
                                 <img class="image" src="images/about-us/our-workspace.png" alt="...">
                               </div>

@@ -18,7 +18,8 @@ class Block_2_data {
                             'product-name' => 'Oyo cantilever stairs',
                             'product-rating' => '4-stars',
                             'product-price-without-discount' => '111,00',
-                            'product-price-with-discount' => '53,00'
+                            'product-price-with-discount' => '53,00',
+                            'class-for-xs-sm-screens' => ''
                         );
                     break;
                     
@@ -34,7 +35,8 @@ class Block_2_data {
                             'product-name' => 'Kurve Chair',
                             'product-rating' => '4-stars',
                             'product-price-without-discount' => '125,00',
-                            'product-price-with-discount' => '75,00'
+                            'product-price-with-discount' => '75,00',
+                            'class-for-xs-sm-screens' => 'block-2-inline-block'
                         );
                     break;                    
                 }                    
@@ -49,7 +51,8 @@ class Block_2_data {
                             'product-name' => 'Kurve table',
                             'product-rating' => '4-stars',
                             'product-price-without-discount' => '220,00',
-                            'product-price-with-discount' => '180,00'
+                            'product-price-with-discount' => '180,00',
+                            'class-for-xs-sm-screens' => ''
                         );
                         break;
                 }

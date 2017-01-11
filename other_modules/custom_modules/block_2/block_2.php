@@ -1,4 +1,5 @@
-<li class="block-2">
+<li class="block-2  <?php echo $block_2_data -> block_2['class-for-xs-sm-screens']; ?>">
+
     <div class="image-wrapper  block-2__image-wrapper">
       <img class="image" src="<?php echo $block_2_data -> block_2['image']; ?>" alt="...">
     </div>
@@ -36,4 +37,5 @@
             </span>
         </span>
     </div>
+
 </li>

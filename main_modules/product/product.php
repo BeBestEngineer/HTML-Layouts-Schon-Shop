@@ -4,7 +4,7 @@
     <div class="row">
       <div class="container-fluid  product__wrapper">
         <div class="container">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <div class="product__info">
               <a class="product__info-link" href="#">
                 <svg  class="product__info-icon" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26t-55.5-65.5-68-97.5-53.5-121-23.5-138q0-220 127-344t351-124q62 0 126.5 21.5t120 58 95.5 68.5 76 68q36-36 76-68t95.5-68.5 120-58 126.5-21.5q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z"/></svg>
@@ -54,7 +54,7 @@
           </div>
 
 
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
             <div class="product__header">
               <ol class="breadcrumb">
@@ -113,7 +113,7 @@
               </div>
               <div class="product__bittons">
                 <div class="row">
-                  <div class="col-lg-12">
+                  <div class="col-md-12">
                     <span   class="product__quantity-text  product__info-text  text-montserrat-regular-14  grey-b6b6b6">Qty:</span>
                     <div    class="product__quantity-buttons  product__info-text">
                       <button class="product__quantity-more" type="button">
@@ -229,7 +229,7 @@
       <section class="static-gallery-5-items">
         <h2 class="static-gallery-5-items__title  text-montserrat-bold-26-upper  black-3a3a3a">Related products</h2>
           <?php for ($i = 0; $i <= 5; ++$i): ?>
-            <div class="col-lg-2">
+            <div class="col-md-2  col-sm-4  col-xs-6">
               <article class="static-gallery-5-items__item">
                 <a class="image-wrapper  static-gallery-5-items__image-wrapper" href="#">
                   <img class="image" src="images/product/static-gallery-5-image.png" alt="static gallery 5 image">

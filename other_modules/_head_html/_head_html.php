@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!--
   960 - point 1
+  955
 -->
   <!--third-components-->
   <link rel="stylesheet" href="global_third_components/libs/normalize-css/normalize.css">

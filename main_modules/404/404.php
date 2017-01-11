@@ -3,14 +3,16 @@
 
   <strong class="page-404__sub-title text-montserrat-bold-36-upper  black-545454">Page not found!</strong><br>
 
-  <span class="text-source-sans-pro-light-24  black-545454">We're sorry, but something went wrong.</span>
+  <span class="page-404__sub-title-text  text-source-sans-pro-light-24  black-545454">We're sorry, but something went wrong.</span>
 
 
-  <div class="page-404__form-wrapper">
+  <div class="page-404__wrapper-bottom">
+<div class="row">
+      <div class="col-sm-4  col-sm-offset-2  text-right  page-404__back-to-home-wrapper">
+        <a class="schon-button  page-404__button  text-montserrat-bold-18-upper  white-ffffff  black-545454-bg" href="?page=home">Back to home</a>
+      </div>
 
-      <a class="schon-button  page-404__button  text-montserrat-bold-18-upper  white-ffffff  black-545454-bg" href="?page=home">Back to home</a>
-
-
+    <div class="col-sm-4 text-left  page-404__form-wrapper">
       <form class="page-404__form  form-inline" id="page-404-form">
         <input type="text" class="form-control  page-404__form-input  forms-input  text-montserrat-regular-16-upper  black-545454" id="" name="" placeholder="Search">
         <button type="submit" class="page-404__form-button  transparent-button">
@@ -19,6 +21,9 @@
           </svg>
         </button>
       </form>
+    </div>
+
+</div>
   </div>
 
 </main>

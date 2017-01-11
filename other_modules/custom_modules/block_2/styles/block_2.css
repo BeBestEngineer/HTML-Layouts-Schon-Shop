@@ -4,3 +4,18 @@
 
 }
 
+.block-2-inline-block {
+
+}
+@media (max-width: 992px) {
+	.block-2-inline-block {
+		display: inline-block;
+		width: 49%;
+	}
+}
+@media (max-width: 580px) {
+	.block-2-inline-block {
+		display: block;
+		width: 100%
+	}
+}

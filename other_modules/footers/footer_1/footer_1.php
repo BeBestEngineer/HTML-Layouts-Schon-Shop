@@ -4,7 +4,7 @@
       <div class="row">
 
 
-        <div class="col-lg-3">
+        <div class="col-md-3  col-sm-6">
           <a href="?page=home" class="image-wrapper  logo-link">
             <img class="image  image-logo" src="images/footer/logo-monochrome.png" alt="logo-monochrome">
           </a>
@@ -42,7 +42,7 @@
         </div>
 
 
-        <div class="col-lg-3">
+        <div class="col-md-3  col-sm-6  text-left">
           <div class="social-group">
             <b class="footer-titles  text-myriad-pro-regular-16  black-757575">Twitter</b>
             <div class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
@@ -66,7 +66,7 @@
         </div>
 
 
-        <div class="col-lg-3">
+        <div class="col-md-3  col-sm-6">
           <div class="product-tags">
             <b class="footer-titles  text-myriad-pro-regular-16  black-757575">Product tags</b>
 
@@ -104,7 +104,7 @@
         </div>
 
 
-        <div class="col-lg-3  text-right">
+        <div class="col-md-3  col-sm-6  text-right">
           <div class="company-info">
             <b class="footer-titles  text-myriad-pro-regular-16  black-757575">Information</b>
             <div class="text-sourse-sans-pro-regular-14  grey-a0a0a0">
@@ -146,13 +146,13 @@
   <section class="footer-bottom-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4  col-xs-6">
           <p class="copyright-text  text-myriad-pro-regular-14  grey-868686">
             &copy; <b class="black-000000">schon</b> - All rights reserved.
           </p>
         </div>
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4">
+        <div class="col-lg-4  hidden-xs"></div>
+        <div class="col-lg-4  col-xs-6">
           <div class="payments-system text-right">
             <span class="payment-system">Visa</span>
             <span class="payment-system">Paypal</span>

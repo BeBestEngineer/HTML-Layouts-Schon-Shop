@@ -12,6 +12,11 @@
 .carousel-with-masonry-grid__image-right-bottom-wrapper {
 	height: 220px;
 }
+@media (max-width: 992px) {
+	.carousel-with-masonry-grid__image-right-bottom-wrapper {
+		height: 542px;
+	}
+}
 .contacts-us__desc a {
 	color: #494949;
 }
@@ -76,4 +81,42 @@ li.carousel-with-masonry-grid__indicator-wrapper.active {
 }
 li.carousel-with-masonry-grid__indicator-wrapper.active .carousel-with-masonry-grid__indicator {
 	background-color: #575757;
+}
+
+@media (max-width: 992px) {
+	.about-us__member-of-team {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.carousel-with-masonry-grid img {
+		max-width: unset;
+	}
+	.carousel-with-masonry-grid__image-left-wrapper {
+		margin-bottom: 30px;
+	}
+	.carousel-with-masonry-grid__image-right-bottom-wrapper {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel-with-masonry-grid__image-right-top-5-wrapper {
+		margin-bottom: 30px;
+	}
+	.carousel-with-masonry-grid__image-left-wrapper {
+		margin-bottom: 30px;
+	}
+	.carousel-with-masonry-grid__image-right-bottom-wrapper {
+		margin-top: 30px;
+	}
+
+	.carousel-with-masonry-grid__image-left-wrapper,
+	.carousel-with-masonry-grid__image-right-top-5-wrapper,
+	.carousel-with-masonry-grid__image-right-top-7-wrapper,
+	.carousel-with-masonry-grid__image-right-bottom-wrapper {
+		height: 308px;
+	}
 }
