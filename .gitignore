@@ -1,4 +1,4 @@
-.idea/
-nbproject/
+source/.idea/
+source/nbproject/
+source/node_modules/
 readme.txt
-node_modules/
