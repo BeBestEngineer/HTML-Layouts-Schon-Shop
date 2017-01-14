@@ -1,0 +1,7 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: local('MyriadPro Regular'), local('MyriadPro-Regular'), url('MyriadPro-Regular.woff2') format('woff2'), url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

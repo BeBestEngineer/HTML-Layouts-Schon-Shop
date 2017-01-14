@@ -1,0 +1,314 @@
+.image-carousel-1-wrapper {
+	height: 590px;
+}
+
+.masonry-4-grid-1__image-wrapper-1 {
+	height: 480px;
+}
+.masonry-4-grid-1__image-wrapper-2 {
+	height: 225px;
+}
+@media (max-width: 767px) {
+	.masonry-4-grid-1__image-wrapper-2 {
+		height: 480px;
+	}
+}
+
+.carousel-1-4_2__image-wrapper {
+	height: 213px;
+}
+
+.carousel-2-4__image-wrapper {
+	height: 275px;
+}
+
+
+/*carousel-1 (b)*/
+.carousel-1 {
+	margin-bottom: 30px;
+}
+li.carousel-1__indicator {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #a0a0a0;
+	margin: 0;
+}
+li.carousel-1__indicator.active {
+	width: 15px;
+	height: 15px;
+	background-color: transparent;
+	border: 2px solid #3a3a3a;
+}
+.carousel-1__indicators {
+	margin-top: 80px;
+}
+.carousel-1-text {
+	top: 0;
+	padding-top: 12px;
+}
+.carousel-1__above-title-text {
+	display: inline-block;
+	margin-top: 160px;
+	margin-bottom: 20px;
+}
+.carousel-1__product-title {
+	margin-bottom: 10px;
+}
+.carousel-1__under-title-text {
+	margin-bottom: 80px;
+}
+@media (max-width: 800px) {
+	.carousel-1__under-title-text {
+		margin-bottom: 20px;
+	}
+}
+.image-carousel-1-wrapper img {
+	max-height: unset;
+}
+@media (max-width: 1000px) {
+	.image-carousel-1-wrapper img {
+		max-height: 100%;
+		max-width: unset;
+	}
+}
+/*carousel-1 (e)*/
+
+/*masonry grid (b)*/
+.masonry-4-grid-1__image-wrapper-2 img {
+	max-width: unset;
+}
+@media (max-width: 767px) {
+	.masonry-4-grid-1__image-wrapper-2 img {
+		min-width: 100%;
+		max-height: unset;
+	}
+}
+.masonry-4-grid-1__image-wrapper-1 img,
+.masonry-4-grid-1__image-wrapper-4 img {
+	max-width: unset;
+}
+.masonry-4-grid-1__item {
+	position: relative;
+}
+.masonry-4-grid-1__item-title {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.masonry-4-grid-1 .product-price {
+	position: absolute;
+	top: 75px;
+	left: 20px;
+}
+.masonry-4-grid-1__action-link-text,
+.masonry-4-grid-1__action-link-icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+.masonry-4-grid-1__action-link-icon {
+	fill: #757575;
+}
+.masonry-4-grid-1__action-link {
+	position: absolute;
+	top: 125px;
+	left: 20px;
+}
+.masonry-4-grid-1 .product-discont {
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+}
+.masonry-4-grid-1__item-2 {
+	margin-bottom: 30px;
+}
+@media (max-width: 1199px) {
+	.masonry-4-grid-1__item-2 {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 767px) {
+	.masonry-4-grid-1__item-2 {
+		margin-bottom: 30px;
+	}
+}
+.masonry-4-grid-1 {
+	margin-bottom: 60px;
+}
+@media (max-width: 1199px) {
+	.masonry-4-grid-1__middle-part {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+
+/*masonry grid (e)*/
+
+
+/*carousel-1-4_2 (b)*/
+.carousel-1-4_2 {
+	position: relative;
+}
+.carousel-1-4_2__categories {
+	margin-left: 15px;
+	padding-bottom: 20px;
+}
+.carousel-1-4_2__category-link {
+	display: inline-block;
+	position: relative;
+	margin-right: 60px;
+}
+.carousel-1-4_2__category-link:not(:last-child ):after {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: -29px;
+	background-color: #868686;
+}
+.carousel-1-4_2 img {
+	max-width: unset;
+}
+.carousel-1-4_2__top-items,
+.carousel-1-4_2__bottom-items {
+	position: relative;
+}
+.carousel-1-4_2__top-items {
+	margin-bottom: 30px;
+}
+.carousel-1-4_2 .marker-new {
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.carousel-1-4_2 .marker-discont {
+	position: absolute;
+	top: 44px;
+	left: 0;
+}
+.carousel-1-4_2-container__item {
+	margin: 0px 15px;
+}
+.carousel-1-4_2 .rating {
+	position: absolute;
+	top: 180px;
+	left: 80px;
+}
+.carousel-1-4_2__product-title {
+	margin: 0;
+	margin-top: 10px;
+}
+.carousel-1-4_2-navigation__prev,
+.carousel-1-4_2-navigation__next {
+	position: absolute;
+	top: 45px;
+	bottom: 60px;
+	padding-top: 240px;
+	background-color: #F6F6F6;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.carousel-1-4_2-navigation__prev {
+	left: -55px	;
+}
+.carousel-1-4_2-navigation__next {
+	right: -55px;
+}
+.carousel-1-4_2-navigation__prev svg,
+.carousel-1-4_2-navigation__next svg {
+	fill: #3a3a3a;
+}
+/*carousel-1-4_2 (e)*/
+
+
+/*carousel-2-4 (b)*/
+.carousel-2-4 {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background-color: #f6f6f6;
+}
+.carousel-2-4__wrapper {
+	position: relative;
+	padding: 0px;
+}
+.carousel-2-4 .item {
+	margin: 0px 15px;
+}
+.carousel-2-4__image-wrapper img {
+	max-width: unset;
+}
+.carousel-2-4-container__item {
+	position: relative;
+}
+.carousel-2-4 .marker-discont {
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.carousel-2-4 .marker-best-price {
+	position: absolute;
+	top: 44px;
+	left: 0;
+}
+.carousel-2-4__under-title {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.carousel-2-4-navigation__prev,
+.carousel-2-4-navigation__next {
+	position: absolute;
+	top: 0;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.carousel-2-4-navigation__prev {
+	left: 15px;
+	background-color: #f6f6f6;
+	padding: 5px 30px 0px 10px;
+}
+.carousel-2-4-navigation__next {
+	right: 15px;
+	background-color: #f6f6f6;
+	padding: 5px 10px 0px 30px;
+}
+.carousel-2-4-container__product-title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.carousel-2-4-navigation__prev svg,
+.carousel-2-4-navigation__next svg {
+	fill: #3a3a3a;
+}
+/*carousel-2-4 (e)*/
+
+/*стили блоков 1 и 2 вынести в block2.css*/
+/*featured-products (b)*/
+.featured-products {
+	padding: 75px 0px;
+}
+.block-2 {
+	margin-bottom: 30px;
+}
+.featured-product__title-home {
+	display: block;
+	margin-bottom: 30px;
+}
+div.block-2__image-wrapper,
+.block-2__desc-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+.block-2__desc-wrapper {
+	width: 60%;
+	padding-left: 10px;
+}
+.block-2__image-wrapper {
+	width: 99px;
+	height: 99px;
+}
+.block-2__title-product {
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+/*featured-products (e)*/
+

@@ -1,0 +1,95 @@
+.pdoduct-filter-1__price-regulator-input {
+	width: 60%;
+}
+
+.aside-1 {
+	padding-top: 30px;
+}
+.aside-section {
+	padding-top: 40px;
+	/*margin-bottom: 40px;*/
+}
+.aside-title {
+	display: block;
+	margin-bottom: 30px;
+}
+.pdoduct-filter-1 {
+	background-color: #f4f4f4;
+	padding: 40px 30px;
+}
+.pdoduct-filter-1__legend {
+	margin-bottom: 20px;
+}
+.pdoduct-filter-1__price-regulator {
+	margin-bottom: 20px;
+}
+.pdoduct-filter-1__price-regulator-input {
+	margin-left: 10px;
+	background-color: transparent;
+	border: 0;
+	width: 90px;
+}
+.pdoduct-filter-1__data-prices-wrapper-outer {
+	padding-right: 0;
+}
+.pdoduct-filter-1__data-prices-wrapper-inner {
+	padding-top: 3px;
+}
+.categories-list-1__list-item {
+	padding: 10px 0px;
+	border-bottom: 1px solid #a5a5a5;
+}
+.categories-list-1__list-item:first-child {
+	padding-top: 0;
+}
+.pdoduct-filter-1__brands-list {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #a5a5a5;
+	margin-bottom: 20px;
+}
+.pdoduct-filter-1__brand-item {
+	margin-bottom: 5px;
+}
+
+
+.aside-filter-option {
+	padding: 5px;
+	transition: background-color .25s;
+}
+.aside-filter-option:hover {
+	background-color: lightgray;
+}
+
+
+/*price-regulator (b)*/
+.slider-range-label {
+	font-weight: normal;
+}
+.ui-widget-content .ui-state-default,
+.ui-slider-handle {
+	border-radius: 50%;
+	border: 4px solid #494949;
+}
+.ui-widget-content .ui-state-default:focus,
+.ui-slider-handle {
+	cursor: pointer;
+	background-color: #ffffff;
+}
+.ui-widget-content .ui-state-default:hover {
+	cursor: pointer;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.4em;
+}
+.ui-slider-range {
+	background-color: #494949;
+}
+.ui-slider-horizontal {
+	height: 6px;
+	border-radius: 3px;
+	background-color: #b3b3b3;
+}
+.ui-slider-horizontal .ui-slider-range {
+	height: 6px;
+}
+/*price-regulator (e)*/
