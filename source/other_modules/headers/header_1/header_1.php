@@ -33,11 +33,11 @@
             </a>
             <div class="dropdown-menu  dropdown-search-wrapper">
               <div class="row">
-                <div class="col-md-6  col-md-offset-3  col-sm-8  col-sm-offset-2">
+                <div class="col-sm-8  col-sm-offset-2">
                   <form class="form-horizontal">
 
                     <div class="form-group">
-                      <div class="col-xs-11">
+                      <div class="col-xs-11  dropdown-search__input-wrapper">
                         <input type="text" class="form-control  dropdown-search__input  forms-input  grey-f0f0f0-bg  text-source-sans-pro-light-14  placeholder-color-909090" id="dropdown-search-input" placeholder="Search">
                       </div>
 
@@ -123,10 +123,10 @@
               <div class="container-fluid">
                 <div class="shopping-bag-dropdown-menu__sub-total-price">
                   <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-xs-4">
                       <span class="text-source-sans-pro-semibold-14  grey-757575">Sub total</span>
                     </div>
-                    <div class="col-lg-6  text-right">
+                    <div class="col-xs-8  text-right">
                       <span class="text-montserrat-bold-18-upper  black-000000">
                         <span class="">$</span>
                         <span class="">2550</span>
@@ -136,10 +136,10 @@
                 </div>
 
                 <div class="row">
-                  <div class="col-xs-6">
+                  <div class="col-xs-6  shopping-bag-dropdown-menu__button-container">
                     <a class="schon-button  text-montserrat-bold-18-upper  white-ffffff  black-282828-bg" href="?page=shopping-cart">View cart</a>
                   </div>
-                  <div class="col-xs-6  text-right">
+                  <div class="col-xs-6  text-right  shopping-bag-dropdown-menu__button-container">
                     <a class="schon-button  text-montserrat-bold-18-upper  white-ffffff  black-282828-bg" href="#">Checkout</a>
                   </div>
                 </div>
@@ -249,7 +249,7 @@
                   </div>
                   <div class="form-group">
                     <div class="row">
-                      <div class="col-sm-8">
+                      <div class="col-xs-8">
                         <div class="checkbox">
                           <!--
                           <label   class="sign-in-form__label-checkbox  text-oxygen-regular-12  grey-9c9c9c">
@@ -265,7 +265,7 @@
                           </label>
                         </div>
                       </div>
-                      <div class="col-sm-4  text-right">
+                      <div class="col-xs-4  text-right">
                         <p class="form-control-static">
                           <a href="#" class="  text-oxygen-regular-12  grey-9c9c9c">Help?</a>
                         </p>
