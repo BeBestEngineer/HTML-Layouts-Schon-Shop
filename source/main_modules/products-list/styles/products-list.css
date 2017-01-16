@@ -47,7 +47,7 @@
 }
 .sorting-options-list {
 	width: 100%;
-	min-width: unset;
+	min-width: inherit;
 }
 .sorting-options-list li > a {
 	padding-left: 12px;
@@ -104,7 +104,7 @@
 	top: 44px;
 }
 .product-item-square-1__image-wrapper img {
-	max-height: unset;
+	max-height: inherit;
 }
 .product-item-square-1 .rating {
 	margin-top: 5px;

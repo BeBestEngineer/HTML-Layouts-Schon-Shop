@@ -1,22 +1,4 @@
 /* about-us */
-.about-us__image-wrapper {
-	height: 280px;
-}
-.carousel-with-masonry-grid__image-left-wrapper {
-	height: 542px;
-}
-.carousel-with-masonry-grid__image-right-top-5-wrapper,
-.carousel-with-masonry-grid__image-right-top-7-wrapper {
-	height: 308px;
-}
-.carousel-with-masonry-grid__image-right-bottom-wrapper {
-	height: 220px;
-}
-@media (max-width: 992px) {
-	.carousel-with-masonry-grid__image-right-bottom-wrapper {
-		height: 542px;
-	}
-}
 .contacts-us__desc a {
 	color: #494949;
 }
@@ -24,10 +6,10 @@
 	display: inline-block;
 	padding: 10px 25px;
 }
+
 .about-us svg {
 	fill: #757575;
 }
-
 .about-us {
 	padding: 75px 0px;
 	padding-bottom: 160px;
@@ -36,14 +18,6 @@
 .about-us__text {
 	margin-bottom: 30px;
 }
-.follow-us__title {
-	display: block;
-	margin-bottom: 20px;
-}
-.social-icons__link {
-	display: inline-block;
-	margin-right: 15px;
-}
 .about-us__desc {
 	margin-bottom: 60px;
 }
@@ -51,7 +25,22 @@
 	margin-bottom: 30px;
 }
 .about-us__image-wrapper {
+	height: 280px;
 	margin-bottom: 20px;
+}
+.about-us__image-wrapper img {
+	max-width: inherit;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.about-us__image-wrapper img {
+		left: -10%;
+	}
+}
+@media (max-width: 992px) {
+	.about-us__member-of-team {
+		margin-bottom: 30px;
+		text-align: center;
+	}
 }
 .about-us__our-team {
 	margin-bottom: 60px;
@@ -60,6 +49,18 @@
 	margin-bottom: 30px;
 }
 
+/*Follow us (b)*/
+.follow-us__title {
+	display: block;
+	margin-bottom: 20px;
+}
+.social-icons__link {
+	display: inline-block;
+	margin-right: 15px;
+}
+/*Follow us (e)*/
+
+/*Indicators (b)*/
 .carousel-with-masonry-grid .carousel-indicators {
 	bottom: -89px;
 }
@@ -82,41 +83,61 @@ li.carousel-with-masonry-grid__indicator-wrapper.active {
 li.carousel-with-masonry-grid__indicator-wrapper.active .carousel-with-masonry-grid__indicator {
 	background-color: #575757;
 }
+/*Indicators (e)*/
 
-@media (max-width: 992px) {
-	.about-us__member-of-team {
-		margin-bottom: 30px;
-		text-align: center;
-	}
+/*Masonry grid wrappers (b)*/
+.carousel-with-masonry-grid__image-left-wrapper {
+	height: 542px;
 }
-
-@media (min-width: 768px) and (max-width: 992px) {
-	.carousel-with-masonry-grid img {
-		max-width: unset;
-	}
+@media (max-width: 991px) {
 	.carousel-with-masonry-grid__image-left-wrapper {
+		height: 308px;
 		margin-bottom: 30px;
 	}
-	.carousel-with-masonry-grid__image-right-bottom-wrapper {
-		margin-top: 30px;
-	}
 }
-
-@media (max-width: 768px) {
+.carousel-with-masonry-grid__image-right-top-5-wrapper,
+.carousel-with-masonry-grid__image-right-top-7-wrapper {
+	height: 308px;
+}
+@media (max-width: 767px) {
 	.carousel-with-masonry-grid__image-right-top-5-wrapper {
 		margin-bottom: 30px;
 	}
-	.carousel-with-masonry-grid__image-left-wrapper {
-		margin-bottom: 30px;
-	}
-	.carousel-with-masonry-grid__image-right-bottom-wrapper {
-		margin-top: 30px;
-	}
+}
 
-	.carousel-with-masonry-grid__image-left-wrapper,
-	.carousel-with-masonry-grid__image-right-top-5-wrapper,
-	.carousel-with-masonry-grid__image-right-top-7-wrapper,
+.carousel-with-masonry-grid__image-right-bottom-wrapper {
+	height: 205px;
+	margin-top: 30px;
+}
+@media (max-width: 991px) {
 	.carousel-with-masonry-grid__image-right-bottom-wrapper {
 		height: 308px;
 	}
 }
+/*Masonry grid wrappers (e)*/
+
+/*Masonry grid images (b)*/
+.carousel-with-masonry-grid__image-left-wrapper img,
+.carousel-with-masonry-grid__image-right-top-5-wrapper img,
+.carousel-with-masonry-grid__image-right-top-7-wrapper img {
+	max-width: inherit;
+}
+@media (max-width: 991px) {
+	.carousel-with-masonry-grid__image-left-wrapper img {
+		max-height: inherit;
+		max-width: 100%;
+	}
+}
+.carousel-with-masonry-grid__image-right-bottom-wrapper img {
+	max-height: inherit;
+}
+
+@media (max-width: 767px) {
+	.carousel-with-masonry-grid__image-left-wrapper img,
+	.carousel-with-masonry-grid__image-right-top-5-wrapper img,
+	.carousel-with-masonry-grid__image-right-top-7-wrapper img,
+	.carousel-with-masonry-grid__image-right-bottom-wrapper img {
+		max-height: inherit;
+	}
+}
+/*Masonry grid images (e)*/

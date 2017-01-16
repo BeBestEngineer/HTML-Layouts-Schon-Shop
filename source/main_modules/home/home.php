@@ -159,15 +159,19 @@
   </div>
 
 
-  <div class="container" style="padding: 0;">
+
     <section class="carousel-1-4_2">
+
+      <div class="container">
       <div class="carousel-1-4_2__categories">
         <a class="carousel-1-4_2__category-link  text-montserrat-regular-18-upper  black-3a3a3a  active" href="#">Featured</a>
         <a class="carousel-1-4_2__category-link  text-montserrat-regular-18-upper  grey-868686"          href="#">Latest</a>
         <a class="carousel-1-4_2__category-link  text-montserrat-regular-18-upper  grey-868686"          href="#">Best Seller</a>
       </div>
+      </div>
 
-      <ul class="item carousel-1-4_2__container" id="carousel-1-4_2-container">
+      <div class="container  carousel-1-4_2__container">
+      <ul class="carousel-1-4_2__list" id="carousel-1-4_2-container">
 
         <?php for ($i = 0; $i <= 10; ++$i): ?>
         <li class="item carousel-1-4_2-container__item  text-center">
@@ -241,7 +245,7 @@
       </ul>
 
 
-      <div class="carousel-1-4_2-navigation  hidden-sm">
+      <div class="carousel-1-4_2-navigation  hidden-sm  hidden-xs">
         <a class="carousel-1-4_2-navigation__prev" role="button">
           <svg class="carousel-1-4_2-navigation__prev-icon" width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"/>
@@ -253,9 +257,10 @@
           </svg>
         </a>
       </div>
+      </div>
 
     </section>
-  </div>
+  
 
 
   <div class="container-fluid">
@@ -292,7 +297,7 @@
 
       </ul>
 
-      <div class="carousel-2-4-navigation  hidden-md">
+      <div class="carousel-2-4-navigation  hidden-sm  hidden-xs">
         <a class="carousel-2-4-navigation__prev" role="button">
           <svg width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"/>

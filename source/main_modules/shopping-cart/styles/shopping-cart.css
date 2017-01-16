@@ -20,7 +20,7 @@
 	overflow: hidden;
 }
 .shopping-cart__image-wrapper img {
-	max-width: unset;
+	max-width: inherit;
 }
 
 
@@ -61,11 +61,11 @@
 	content: "";
 	position: absolute;
 	top: 42px;
-	display: inline-block;
+	display: block;
 	width: 120px;
 	height: 1px;
 	background-color: #838182;
-	margin-left: 67px;
+	margin-left: 130px;
 }
 @media (max-width: 767px) {
 	.process__step:not(:last-child) {

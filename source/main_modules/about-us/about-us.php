@@ -89,12 +89,12 @@
               <div class="item active">
                 <div class="wrapper-image">
                   <!--          <img class="image" src="" alt="...">-->
-                  <div class="container">
+                  <div class="">
                     <div class="row">
 
                       <div class="col-md-6">
                         <div class="image-wrapper  carousel-with-masonry-grid__image-left-wrapper">
-                          <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                          <img class="image" src="images/about-us/our-workspace-1-1.png" alt="...">
                         </div>
                       </div>
 
@@ -104,13 +104,13 @@
 
                           <div class="col-md-5  col-sm-6">
                             <div class="image-wrapper  carousel-with-masonry-grid__image-right-top-5-wrapper">
-                              <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                              <img class="image" src="images/about-us/our-workspace-1-2.png" alt="...">
                             </div>
                           </div>
 
                           <div class="col-md-7  col-sm-6">
                             <div class="image-wrapper carousel-with-masonry-grid__image-right-top-7-wrapper">
-                              <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                              <img class="image" src="images/about-us/our-workspace-1-3.png" alt="...">
                             </div>
                           </div>
 
@@ -118,8 +118,10 @@
 
 
                         <div class="row">
-                          <div class="image-wrapper carousel-with-masonry-grid__image-right-bottom-wrapper">
-                            <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                          <div class="col-xs-12">
+                            <div class="image-wrapper carousel-with-masonry-grid__image-right-bottom-wrapper">
+                              <img class="image" src="images/about-us/our-workspace-1-4.png" alt="...">
+                            </div>
                           </div>
                         </div>
 
@@ -131,16 +133,16 @@
               </div>
 
 
-              <?php for ($i = 0; $i <= 1; ++$i): ?>
+              <?php for ($i = 2; $i <= 3; $i++): ?>
                 <div class="item">
                   <div class="wrapper-image">
                     <!--          <img class="image" src="" alt="...">-->
-                    <div class="container">
+                    <div class="">
                       <div class="row">
 
                         <div class="col-md-6 ">
                           <div class="image-wrapper  carousel-with-masonry-grid__image-left-wrapper">
-                            <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                            <img class="image" src="images/about-us/our-workspace-<?php echo $i; ?>-1.png" alt="...">
                           </div>
                         </div>
 
@@ -150,13 +152,13 @@
 
                             <div class="col-md-5  col-sm-6">
                               <div class="image-wrapper  carousel-with-masonry-grid__image-right-top-5-wrapper">
-                                <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                                <img class="image" src="images/about-us/our-workspace-<?php echo $i; ?>-2.png" alt="...">
                               </div>
                             </div>
 
                             <div class="col-md-7 col-sm-6">
                               <div class="image-wrapper carousel-with-masonry-grid__image-right-top-7-wrapper">
-                                <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                                <img class="image" src="images/about-us/our-workspace-<?php echo $i; ?>-3.png" alt="...">
                               </div>
                             </div>
 
@@ -164,8 +166,10 @@
 
 
                           <div class="row">
-                            <div class="image-wrapper carousel-with-masonry-grid__image-right-bottom-wrapper">
-                              <img class="image" src="images/about-us/our-workspace.png" alt="...">
+                            <div class="col-xs-12">
+                              <div class="image-wrapper carousel-with-masonry-grid__image-right-bottom-wrapper">
+                                <img class="image" src="images/about-us/our-workspace-<?php echo $i; ?>-4.png" alt="...">
+                              </div>
                             </div>
                           </div>
 

@@ -66,29 +66,29 @@ li.carousel-1__indicator.active {
 	padding: 40px;
 }
 .image-carousel-1-wrapper img {
-	max-height: unset;
+	max-height: inherit;
 }
 @media (max-width: 1000px) {
 	.image-carousel-1-wrapper img {
 		max-height: 100%;
-		max-width: unset;
+		max-width: inherit;
 	}
 }
 /*carousel-1 (e)*/
 
 /*masonry grid (b)*/
 .masonry-4-grid-1__image-wrapper-2 img {
-	max-width: unset;
+	max-width: inherit;
 }
 @media (max-width: 767px) {
 	.masonry-4-grid-1__image-wrapper-2 img {
 		min-width: 100%;
-		max-height: unset;
+		max-height: inherit;
 	}
 }
 .masonry-4-grid-1__image-wrapper-1 img,
 .masonry-4-grid-1__image-wrapper-4 img {
-	max-width: unset;
+	max-width: inherit;
 }
 .masonry-4-grid-1__item {
 	position: relative;
@@ -149,14 +149,26 @@ li.carousel-1__indicator.active {
 /*carousel-1-4_2 (b)*/
 .carousel-1-4_2 {
 	position: relative;
-	padding-bottom: 60px;
+	height: 690px;
 }
 .carousel-1-4_2__container {
 	position: relative;
+	padding: 0;
+	height: 580px;
+}
+.carousel-1-4_2__list {
+	position: relative;
 	z-index: 2;
 }
+@media (min-width: 992px) and (max-width: 1309px) {
+	.carousel-1-4_2__list {
+		position: absolute;
+		left: 70px;
+		right: 70px;
+		width: auto;
+	}
+}
 .carousel-1-4_2__categories {
-	margin-left: 15px;
 	padding-bottom: 20px;
 }
 .carousel-1-4_2__category-link {
@@ -175,7 +187,7 @@ li.carousel-1__indicator.active {
 	background-color: #868686;
 }
 .carousel-1-4_2 img {
-	max-width: unset;
+	max-width: inherit;
 }
 .carousel-1-4_2__top-items,
 .carousel-1-4_2__bottom-items {
@@ -200,7 +212,8 @@ li.carousel-1__indicator.active {
 .carousel-1-4_2 .rating {
 	position: absolute;
 	top: 180px;
-	left: 80px;
+	left: 50%;
+	margin-left: -46px;
 }
 .carousel-1-4_2__product-title {
 	margin: 0;
@@ -217,7 +230,7 @@ li.carousel-1__indicator.active {
 .carousel-1-4_2-navigation__prev,
 .carousel-1-4_2-navigation__next {
 	position: absolute;
-	top: 45px;
+	top: 0px;
 	bottom: 60px;
 	width: 50px;
 	background-color: #F6F6F6;
@@ -228,6 +241,14 @@ li.carousel-1__indicator.active {
 }
 .carousel-1-4_2-navigation__next {
 	right: -55px;
+}
+@media (min-width: 992px) and (max-width: 1309px) {
+	.carousel-1-4_2-navigation__prev {
+		left: 15px	;
+	}
+	.carousel-1-4_2-navigation__next {
+		right: 15px;
+	}
 }
 .carousel-1-4_2-navigation__prev-icon,
 .carousel-1-4_2-navigation__next-icon {
@@ -256,7 +277,7 @@ li.carousel-1__indicator.active {
 	margin: 0px 15px;
 }
 .carousel-2-4__image-wrapper img {
-	max-width: unset;
+	max-width: inherit;
 }
 .carousel-2-4-container__item {
 	position: relative;

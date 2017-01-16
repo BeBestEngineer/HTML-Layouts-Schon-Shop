@@ -123,7 +123,7 @@
 
     <div class="shopping-cart__calculate">
       <div class="row" >
-        <div class="col-lg-5" style="position: static;">
+        <div class="col-md-5" style="position: static;">
 
           <b class="shopping-cart__result-title  text-montserrat-regular-18-upper  black-000000">Calculate shipping</b>
           <form class="shopping-cart__form" action="">
@@ -198,9 +198,9 @@
 
         </div>
 
-        <div class="col-lg-1"></div>
+        <div class="col-md-1"></div>
 
-        <div class="col-lg-6" style="position: static;">
+        <div class="col-md-6" style="position: static;">
         <b class="shopping-cart__result-title  shopping-cart__result-title-cart text-montserrat-regular-18-upper  black-000000">Cart total</b>
 
         <div class="shopping-cart__cart-result">
