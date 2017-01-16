@@ -1,8 +1,8 @@
 <li class="block-2  <?php echo $block_2_data -> block_2['class-for-xs-sm-screens']; ?>">
 
-    <div class="image-wrapper  block-2__image-wrapper">
+    <a class="image-wrapper  block-2__image-wrapper" href="#">
       <img class="image" src="<?php echo $block_2_data -> block_2['image']; ?>" alt="...">
-    </div>
+    </a>
 
     <div class="block-2__desc-wrapper">
         <h3 class="block-2__title-product">
