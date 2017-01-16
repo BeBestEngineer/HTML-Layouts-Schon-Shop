@@ -4,32 +4,11 @@
   <meta charset="UTF-8">
   <title>Schon Shop HTML Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<!--
-  960 - point 1
-  955
--->
   <!--third-components-->
   <link rel="stylesheet" href="global_third_components/libs/normalize-css/normalize.css">
   <link rel="stylesheet" href="global_third_components/frameworks/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="global_third_components/libs/jquery-ui/css/jquery-ui.css">
   <link rel="stylesheet" href="global_third_components/libs/owl-carousel-1/owl-carousel/owl.carousel.css">
-  <!--fonts-->
-  <link rel="stylesheet" href="global_third_components/fonts/BrandonGrotessque/BrandonGrotessqueRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Lato/LatoRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Moderna/ModernaRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Montserrat/MontserratBold/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Montserrat/MontserratRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/MyriadPro/MyriadProBold/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/MyriadPro/MyriadProRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Oxygen/Oxygen/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/Oxygen/OxygenBold/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansExtraLight/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansExtraLightIt/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansIt/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansProBold/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansProLight/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansProRegular/stylesheet.css">
-  <link rel="stylesheet" href="global_third_components/fonts/SourceSansPro/SourceSansSemiBold/stylesheet.css">
   <!--global styles-->
   <link rel="stylesheet" href="global_css_components/main.css">
   <link rel="stylesheet" href="global_css_components/images.css">
