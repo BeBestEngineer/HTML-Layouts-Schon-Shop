@@ -53,7 +53,7 @@
               </div>
 
               <div class="col-sm-4  col-xs-6   shopping-cart__col-product-info">
-                <h3 class="text-source-sans-pro-bold-18-cap  grey-757575">Marvelous Modern 3 Seater</h3>
+                <h3 class=""><a class="text-source-sans-pro-bold-18-cap  grey-757575" href="#">Marvelous Modern 3 Seater</a></h3>
               </div>
 
               <div class="col-sm-2  hidden-xs   shopping-cart__col-product-price">

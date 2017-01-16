@@ -24,7 +24,7 @@
                   <span class="text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
                 </h3>
                 <p class="carousel-1__under-title-text  text-source-sans-pro-light-16-it  grey-838182">Consectetur adipisicing elit. Beatae accusamus,<br> optio, repellendus inventore </p>
-                <span class="carousel-1__action-link-text  text-montserrat-bold-16-upper  grey-838182">Shop now</span>
+                <a class="carousel-1__action-link-text  text-montserrat-bold-16-upper  grey-838182" href="#">Shop now</a>
               </div>
             </div>
 
@@ -40,7 +40,7 @@
                   <span class="text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
                 </h3>
                 <p class="carousel-1__under-title-text  text-source-sans-pro-light-16-it  grey-838182">Consectetur adipisicing elit. Beatae accusamus,<br> optio, repellendus inventore </p>
-                <span class="carousel-1__action-link-text  text-montserrat-bold-16-upper grey-838182">Shop now</span>
+                <a class="carousel-1__action-link-text  text-montserrat-bold-16-upper grey-838182" href="#">Shop now</a>
               </div>
             </div>
             <? endfor; ?>
@@ -67,16 +67,16 @@
 
         <div class="col-lg-4">
           <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-1">
-            <div class="image-wrapper  masonry-4-grid-1__image-wrapper-1">
+            <a class="image-wrapper  masonry-4-grid-1__image-wrapper-1" href="#">
               <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x480">
-            </div>
+            </a>
             <h3 class="masonry-4-grid-1__item-title  text-source-sans-pro-light-24-up-ls-2  grey-696969">My smal writting desk</h3>
-            <a class="masonry-4-grid-1__action-link" href="#">
+            <span class="masonry-4-grid-1__action-link">
               <span class="masonry-4-grid-1__action-link-text  text-montserrat-bold-14-upper  grey-868686">Shop now</span>
               <svg class="masonry-4-grid-1__action-link-icon" width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                 <path d="M845 1395l454-454q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-102 102q-19 19-19 45t19 45l307 307-307 307q-19 19-19 45t19 45l102 102q19 19 45 19t45-19zm819-499q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
               </svg>
-            </a>
+            </span>
             <span class="product-price  text-montserrat-regular-18-upper  grey-868686">
               <span class="">€</span>
               <span class="">129</span>
@@ -92,16 +92,16 @@
           <div class="row">
             <div class="col-lg-12  col-sm-6">
               <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-2">
-                <div class="image-wrapper  masonry-4-grid-1__image-wrapper-2">
+                <a class="image-wrapper  masonry-4-grid-1__image-wrapper-2" href="#">
                   <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x230">
-                </div>
+                </a>
                 <h3 class="masonry-4-grid-1__item-title  text-source-sans-pro-light-24-up-ls-2  grey-696969">My smal writting desk</h3>
-                <a href="#" class="masonry-4-grid-1__action-link">
+                <span class="masonry-4-grid-1__action-link">
                   <span class="masonry-4-grid-1__action-link-text  text-montserrat-bold-14-upper  grey-868686">Shop now</span>
                   <svg class="masonry-4-grid-1__action-link-icon" width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M845 1395l454-454q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-102 102q-19 19-19 45t19 45l307 307-307 307q-19 19-19 45t19 45l102 102q19 19 45 19t45-19zm819-499q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
                   </svg>
-                </a>
+                </span>
                 <span class="product-price  text-montserrat-regular-18-upper  grey-868686">
                   <span class="">€</span>
                   <span class="">129</span>
@@ -111,16 +111,16 @@
             </div>
             <div class="col-lg-12  col-sm-6">
               <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-3">
-                <div class="image-wrapper  masonry-4-grid-1__image-wrapper-2">
+                <a class="image-wrapper  masonry-4-grid-1__image-wrapper-2" href="#">
                   <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x230">
-                </div>
+                </a>
                 <h3 class="masonry-4-grid-1__item-title  text-source-sans-pro-light-24-up-ls-2  grey-696969">My smal writting desk</h3>
-                <a href="#" class="masonry-4-grid-1__action-link">
+                <span class="masonry-4-grid-1__action-link">
                   <span class="masonry-4-grid-1__action-link-text  text-montserrat-bold-14-upper  grey-868686">Shop now</span>
                   <svg class="masonry-4-grid-1__action-link-icon" width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M845 1395l454-454q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-102 102q-19 19-19 45t19 45l307 307-307 307q-19 19-19 45t19 45l102 102q19 19 45 19t45-19zm819-499q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
                   </svg>
-                </a>
+                </span>
                 <span class="product-price  text-montserrat-regular-18-upper  grey-868686">
                   <span class="">€</span>
                   <span class="">129</span>
@@ -133,16 +133,16 @@
 
         <div class="col-lg-4">
           <div class="masonry-4-grid-1__item  masonry-4-grid-1__item-1">
-            <div class="image-wrapper  masonry-4-grid-1__image-wrapper-1">
+            <a class="image-wrapper  masonry-4-grid-1__image-wrapper-1" href="#">
               <img class="image" src="images/home/masonry-4-grid-1/masonry-4-grid-1(1).jpg" alt="385x480">
-            </div>
+            </a>
             <h3 class="masonry-4-grid-1__item-title  text-source-sans-pro-light-24-up-ls-2  grey-696969">My smal writting desk</h3>
-            <a href="#" class="masonry-4-grid-1__action-link">
+            <span class="masonry-4-grid-1__action-link">
               <span class="masonry-4-grid-1__action-link-text  text-montserrat-bold-14-upper  grey-868686">Shop now</span>
               <svg class="masonry-4-grid-1__action-link-icon" width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                 <path d="M845 1395l454-454q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-102 102q-19 19-19 45t19 45l307 307-307 307q-19 19-19 45t19 45l102 102q19 19 45 19t45-19zm819-499q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
               </svg>
-            </a>
+            </span>
             <span class="product-price  text-montserrat-regular-18-upper  grey-868686">
               <span class="">€</span>
               <span class="">129</span>
@@ -167,7 +167,7 @@
         <a class="carousel-1-4_2__category-link  text-montserrat-regular-18-upper  grey-868686"          href="#">Best Seller</a>
       </div>
 
-      <ul class="item carousel-1-4_2-container" id="carousel-1-4_2-container">
+      <ul class="item carousel-1-4_2__container" id="carousel-1-4_2-container">
 
         <?php for ($i = 0; $i <= 10; ++$i): ?>
         <li class="item carousel-1-4_2-container__item  text-center">
@@ -241,14 +241,14 @@
       </ul>
 
 
-      <div class="carousel-1-4_2-navigation">
+      <div class="carousel-1-4_2-navigation  hidden-sm">
         <a class="carousel-1-4_2-navigation__prev" role="button">
-          <svg width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+          <svg class="carousel-1-4_2-navigation__prev-icon" width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"/>
           </svg>
         </a>
         <a class="carousel-1-4_2-navigation__next" role="button">
-          <svg width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+          <svg class="carousel-1-4_2-navigation__next-icon" width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/>
           </svg>
         </a>
@@ -292,7 +292,7 @@
 
       </ul>
 
-      <div class="carousel-2-4-navigation">
+      <div class="carousel-2-4-navigation  hidden-md">
         <a class="carousel-2-4-navigation__prev" role="button">
           <svg width="40" height="40" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"/>

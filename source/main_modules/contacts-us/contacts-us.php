@@ -91,7 +91,7 @@
             width="1920"
             height="580"
             frameborder="0"
-            style="border:0"
+            style="border:0; width: 100%; height: 580px;"
             allowfullscreen>
     </iframe>
   </div>

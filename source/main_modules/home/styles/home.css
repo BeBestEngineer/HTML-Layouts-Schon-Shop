@@ -55,12 +55,15 @@ li.carousel-1__indicator.active {
 	margin-bottom: 10px;
 }
 .carousel-1__under-title-text {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 @media (max-width: 800px) {
 	.carousel-1__under-title-text {
 		margin-bottom: 20px;
 	}
+}
+.carousel-1__action-link-text {
+	padding: 40px;
 }
 .image-carousel-1-wrapper img {
 	max-height: unset;
@@ -140,14 +143,17 @@ li.carousel-1__indicator.active {
 		padding-bottom: 30px;
 	}
 }
-
-
 /*masonry grid (e)*/
 
 
 /*carousel-1-4_2 (b)*/
 .carousel-1-4_2 {
 	position: relative;
+	padding-bottom: 60px;
+}
+.carousel-1-4_2__container {
+	position: relative;
+	z-index: 2;
 }
 .carousel-1-4_2__categories {
 	margin-left: 15px;
@@ -200,12 +206,20 @@ li.carousel-1__indicator.active {
 	margin: 0;
 	margin-top: 10px;
 }
+.carousel-1-4_2-navigation {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
 .carousel-1-4_2-navigation__prev,
 .carousel-1-4_2-navigation__next {
 	position: absolute;
 	top: 45px;
 	bottom: 60px;
-	padding-top: 240px;
+	width: 50px;
 	background-color: #F6F6F6;
 	box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
@@ -215,8 +229,14 @@ li.carousel-1__indicator.active {
 .carousel-1-4_2-navigation__next {
 	right: -55px;
 }
-.carousel-1-4_2-navigation__prev svg,
-.carousel-1-4_2-navigation__next svg {
+.carousel-1-4_2-navigation__prev-icon,
+.carousel-1-4_2-navigation__next-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	fill: #3a3a3a;
 }
 /*carousel-1-4_2 (e)*/
@@ -293,7 +313,7 @@ li.carousel-1__indicator.active {
 	display: block;
 	margin-bottom: 30px;
 }
-div.block-2__image-wrapper,
+.image-wrapper.block-2__image-wrapper,
 .block-2__desc-wrapper {
 	display: inline-block;
 	vertical-align: top;
