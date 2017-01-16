@@ -1,4 +1,9 @@
-source/.idea/
-source/nbproject/
-source/node_modules/
+.idea/
+node_modules/
+
 readme.txt
+
+
+
+
+
