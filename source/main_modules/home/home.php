@@ -20,8 +20,8 @@
               <div class="carousel-caption carousel-1-text">
                 <span class="carousel-1__above-title-text  text-source-sans-pro-semibold-14-up-ls-2  grey-838182">Furniture design ideas</span><br>
                 <h3 class="carousel-1__product-title">
-                  <span class="text-montserrat-bold-65-up  black-3b3b3b">Lighting</span><br>
-                  <span class="text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
+                  <span class="carousel-1__product-title-top-text  text-montserrat-bold-65-up  black-3b3b3b">Lighting</span><br>
+                  <span class="carousel-1__product-title-bottom-text  text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
                 </h3>
                 <p class="carousel-1__under-title-text  text-source-sans-pro-light-16-it  grey-838182">Consectetur adipisicing elit. Beatae accusamus,<br> optio, repellendus inventore </p>
                 <a class="carousel-1__action-link-text  text-montserrat-bold-16-upper  grey-838182" href="#">Shop now</a>
@@ -36,8 +36,8 @@
               <div class="carousel-caption carousel-1-text">
                 <span class="carousel-1__above-title-text  text-source-sans-pro-semibold-14-up-ls-2  grey-838182">Furniture design ideas</span><br>
                 <h3 class="carousel-1__product-title">
-                  <span class="text-montserrat-bold-65-up  black-3b3b3b">Lighting</span><br>
-                  <span class="text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
+                  <span class="carousel-1__product-title-top-text  text-montserrat-bold-65-up  black-3b3b3b">Lighting</span><br>
+                  <span class="carousel-1__product-title-bottom-text  text-montserrat-bold-52-up  black-7a7a7a">pendant lamps</span>
                 </h3>
                 <p class="carousel-1__under-title-text  text-source-sans-pro-light-16-it  grey-838182">Consectetur adipisicing elit. Beatae accusamus,<br> optio, repellendus inventore </p>
                 <a class="carousel-1__action-link-text  text-montserrat-bold-16-upper grey-838182" href="#">Shop now</a>
@@ -260,7 +260,7 @@
       </div>
 
     </section>
-  
+
 
 
   <div class="container-fluid">

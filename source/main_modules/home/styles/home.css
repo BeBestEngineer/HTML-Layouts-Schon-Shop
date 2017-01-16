@@ -54,6 +54,14 @@ li.carousel-1__indicator.active {
 .carousel-1__product-title {
 	margin-bottom: 10px;
 }
+@media (max-width: 499px) {
+	.carousel-1__product-title-top-text {
+		font-size: 36px;
+	}
+	.carousel-1__product-title-bottom-text {
+		font-size: 28px;
+	}
+}
 .carousel-1__under-title-text {
 	margin-bottom: 40px;
 }
