@@ -1,0 +1,39 @@
+{
+  "private": "true",
+  "name": "alex",
+  "version": "1.0.0",
+  "description": "schon-html5-template",
+  "main": "build/index.php",
+  "scripts": {
+    "test": "test-schon-html5-template"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeBestEngineer/HTML-Layouts-Schon-Shop.git"
+  },
+  "keywords": [
+    "schon"
+  ],
+  "author": "https://themeforest.net/user/imetin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeBestEngineer/HTML-Layouts-Schon-Shop/issues"
+  },
+  "homepage": "https://github.com/BeBestEngineer/HTML-Layouts-Schon-Shop#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "grunt": "^1.0.1",
+    "grunt-combine-media-queries": "^1.0.20",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-csscomb": "^3.1.1",
+    "grunt-postcss": "^0.8.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "time-grunt": "^1.4.0"
+  }
+}
