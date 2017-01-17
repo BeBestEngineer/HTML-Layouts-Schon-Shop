@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!--third-components-->
   <link rel="stylesheet" href="global_third_components/libs/normalize-css/normalize.css">
-  <link rel="stylesheet" href="global_third_components/frameworks/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="global_third_components/libs/jquery-ui/css/jquery-ui.css">
+  <link rel="stylesheet" href="global_third_components/frameworks/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="global_third_components/libs/jquery-ui/css/price-regulator.css">
   <link rel="stylesheet" href="global_third_components/libs/owl-carousel-1/owl-carousel/owl.carousel.css">
   <!--global styles-->
   <link rel="stylesheet" href="global_css_components/main.css">
