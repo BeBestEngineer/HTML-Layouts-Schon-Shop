@@ -29,11 +29,13 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.2",
     "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
     "grunt-csscomb": "^3.1.1",
     "grunt-postcss": "^0.8.0",
     "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
+    "grunt-newer": "^1.2.0",
     "time-grunt": "^1.4.0"
   }
 }
