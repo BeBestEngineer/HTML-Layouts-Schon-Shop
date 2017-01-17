@@ -95,6 +95,14 @@ module.exports = function(grunt) {
       }
     },
 
+    uglify: {
+      dist: {
+        files: {
+          'source/global_third_components/libs/jquery-ui/js/price-regulator.min.js': ['source/global_third_components/libs/jquery-ui/js/price-regulator.js']
+        }
+      }
+    },
+
     imagemin: {
       images: {
         options: {
@@ -124,4 +132,5 @@ module.exports = function(grunt) {
     'imagemin'
   ]);
 
+  grunt.registerTask('minjs', ['uglify']);
 };
