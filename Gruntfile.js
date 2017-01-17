@@ -15,8 +15,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: "source",
           src: [
-            "global_js_components/**",
-            "global_third_components/**",
+            "global_third_components/fonts/**",
             "global_pages_data/**",
             "page_builders/**",
             "images/**",
@@ -30,14 +29,41 @@ module.exports = function(grunt) {
     },
 
     concat: {
-      dist: {
+      options: {
+        separator: '\n /*SeparatoR*/ \n'
+      },
+      main_styles: {
         src: [
           'source/global_css_components/**/*.css',
           'source/main_modules/**/*.css',
           'source/other_modules/**/*.css',
           '!**/demo.css'
         ],
-        dest: 'build/css/styles.css'
+        dest: 'build/css/main-styles.css'
+      },
+      vendor_styles: {
+        src: [
+          'source/global_third_components/libs/normalize-css/normalize.css',
+          'source/global_third_components/frameworks/bootstrap/dist/css/bootstrap.css',
+          'source/global_third_components/libs/jquery-ui/css/price-regulator.css',
+          'source/global_third_components/libs/owl-carousel-1/owl-carousel/owl.carousel.css'
+        ],
+        dest: 'build/css/vendor-styles.css'
+      },
+      main_scripts: {
+        src: [
+          'source/global_js_components/main.js'
+        ],
+        dest: 'build/js/main-scripts.js'
+      },
+      vendor_scripts: {
+        src: [
+          'source/global_third_components/libs/jquery/jquery.min.js',
+          'source/global_third_components/frameworks/bootstrap/dist/all-js-modules/bootstrap.min.js',
+          'source/global_third_components/libs/jquery-ui/js/price-regulator.min.js',
+          'source/global_third_components/libs/owl-carousel-1/owl-carousel/owl.carousel.min.js',
+        ],
+        dest: 'build/js/vendor-scripts.min.js'
       }
     },
 
@@ -64,14 +90,14 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-        src: 'build/css/styles.css'
+        src: 'build/css/main-styles.css'
       }
     },
 
     cmq: {
       style: {
         files: {
-          "build/css/styles.css": ["build/css/styles.css"]
+          "build/css/main-styles.css": ["build/css/main-styles.css"]
         }
       }
     },
@@ -79,7 +105,7 @@ module.exports = function(grunt) {
     csscomb: {
       style: {
         expand: true,
-        src: ['build/css/styles.css']
+        src: ['build/css/main-styles.css']
       }
     },
 
@@ -90,7 +116,8 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'build/css/style.min.css': ['build/css/styles.css']
+          'build/css/main-styles.min.css': ['build/css/main-styles.css'],
+          'build/css/vendor-styles.min.css': ['build/css/vendor-styles.css']
         }
       }
     },
@@ -98,7 +125,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'source/global_third_components/libs/jquery-ui/js/price-regulator.min.js': ['source/global_third_components/libs/jquery-ui/js/price-regulator.js']
+          // 'source/global_third_components/libs/jquery-ui/js/price-regulator.min.js': ['source/global_third_components/libs/jquery-ui/js/price-regulator.js']
         }
       }
     },
@@ -132,5 +159,7 @@ module.exports = function(grunt) {
     'imagemin'
   ]);
 
-  grunt.registerTask('minjs', ['uglify']);
+  grunt.registerTask('minjs',  ['uglify']);
+  grunt.registerTask('mincss', ['cssmin']);
+  grunt.registerTask('conven', ['concat']);
 };
