@@ -11,20 +11,64 @@ module.exports = function(grunt) {
 
     copy: {
       build: {
-        files: [{
-          expand: true,
-          cwd: "source",
-          src: [
-            "global_third_components/fonts/**",
-            "global_pages_data/**",
-            "page_builders/**",
-            "images/**",
-            "main_modules/**",
-            "other_modules/**",
-            "index.php"
-          ],
-          dest: "build"
-        }]
+        files: [
+          {
+            expand: true,
+            cwd: "source/global_pages_data",
+            src: [
+              "**"
+            ],
+            dest: "build/pages_data"
+          },
+          {
+            expand: true,
+            cwd: "source/global_third_components",
+            src: [
+              "fonts/**"
+            ],
+            dest: "build"
+          },
+          {
+            expand: true,
+            cwd: "source",
+            src: [
+              "images/**"
+            ],
+            dest: "build"
+          },
+          {
+            expand: true,
+            cwd: "source",
+            src: [
+              "main_modules/**"
+            ],
+            dest: "build/pages_modules/"
+          },
+          {
+            expand: true,
+            cwd: "source",
+            src: [
+              "other_modules/**"
+            ],
+            dest: "build/pages_modules/"
+          },
+          {
+            expand: true,
+            cwd: "source/page_builders",
+            src: [
+              "**"
+            ],
+            dest: "build/pages"
+          },
+          {
+            expand: true,
+            cwd: "source",
+            src: [
+              "index.php"
+            ],
+            dest: "build"
+          }
+        ]
       }
     },
 
@@ -89,7 +133,7 @@ module.exports = function(grunt) {
           })
         ]
       },
-      dist: {
+      main_styles: {
         src: 'build/css/main-styles.css'
       }
     },
@@ -109,12 +153,129 @@ module.exports = function(grunt) {
       }
     },
 
+    replace: {
+      paths: {
+        options: {
+          patterns: [
+            {
+              match: /global_pages_data/g,
+              replacement: 'pages_data'
+            },
+            {
+              match: /page_builders/g,
+              replacement: 'pages'
+            },
+            {
+              match: /other_modules/g,
+              replacement: 'pages_modules/other_modules'
+            },
+            {
+              match: /main_modules/g,
+              replacement: 'pages_modules/main_modules'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+             'build/index.php',
+             'build/pages/**',
+             'build/pages_data/**',
+             'build/pages_modules/**'
+            ]
+          }
+        ]
+      },
+      fonts: {
+        options: {
+          patterns: [
+            {
+              match: /global_third_components\//g,
+              replacement: ''
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/css/main-styles.css'
+            ]
+          }
+        ]
+      },
+      link_tags: {
+        options: {
+          patterns: [
+            {
+              match: /\s{2}<link[^>]+>\n/g,
+              replacement: ''
+            },
+            {
+              match: /<\/head>/,
+              replacement: '\t\<link rel="stylesheet" href="css/vendor-styles.min.css">\n\t\<link rel="stylesheet" href="css/main-styles.min.css">\n<\/head>'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/pages_modules/other_modules/_head_html/_head_html.php'
+            ]
+          }
+        ]
+      },
+      script_tags: {
+        options: {
+          patterns: [
+            {
+              match: /\s{4}<script[^>]+><\/script>\n/g,
+              replacement: ''
+            },
+            {
+              match: /<\/body>/,
+              replacement: '\t\<script src="js/vendor-scripts.min.js"></script>\n\t\t\<script src="js/main-scripts.min.js"></script>\n\t<\/body>'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/pages_modules/other_modules/_end_html/_end_html.php'
+            ]
+          }
+        ]
+      },
+      comments: {
+        options: {
+          patterns: [
+            {
+              match: /\s{2}<!--[\d\s\w-]+-->\n/g,
+              replacement: ''
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/pages_modules/other_modules/_head_html/_head_html.php',
+              'build/pages_modules/other_modules/_end_html/_end_html.php'
+            ]
+          }
+        ]
+      }
+    },
+
     cssmin: {
       options: {
         shorthandCompacting: false,
         roundingPrecision: -1
       },
-      target: {
+      build: {
         files: {
           'build/css/main-styles.min.css': ['build/css/main-styles.css'],
           'build/css/vendor-styles.min.css': ['build/css/vendor-styles.css']
@@ -123,9 +284,9 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      dist: {
+      build: {
         files: {
-          // 'source/global_third_components/libs/jquery-ui/js/price-regulator.min.js': ['source/global_third_components/libs/jquery-ui/js/price-regulator.js']
+          'build/js/main-scripts.min.js': ['build/js/main-scripts.js']
         }
       }
     },
@@ -152,14 +313,12 @@ module.exports = function(grunt) {
     'clean',
     'copy',
     'concat',
-    'postcss:dist',
+    'postcss:main_styles',
     'cmq',
     'csscomb',
+    'replace',
     'cssmin',
-    'imagemin'
+    'uglify'
+    // 'imagemin'
   ]);
-
-  grunt.registerTask('minjs',  ['uglify']);
-  grunt.registerTask('mincss', ['cssmin']);
-  grunt.registerTask('conven', ['concat']);
 };
