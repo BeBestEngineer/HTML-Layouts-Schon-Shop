@@ -48,7 +48,8 @@
 	padding-bottom: 75px;
 }
 .product__wrapper {
-	padding: 60px 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: #f6f6f6;
 }
 .product__info {

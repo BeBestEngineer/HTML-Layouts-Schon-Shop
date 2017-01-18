@@ -1,9 +1,7 @@
 <main class="product">
-  <div class="">
-
-    <div class="row">
-      <div class="container-fluid  product__wrapper">
-        <div class="container">
+  <div class="container-fluid">
+    <div class="product__wrapper">
+      <div class="container">
           <div class="col-md-6">
             <div class="product__info">
               <a class="product__info-link" href="#">
@@ -136,14 +134,13 @@
 
           </div>
         </div>
-      </div>
     </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="product__info-tabs">
-            <!-- Nav tabs -->
+  </div>
+  <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="product__info-tabs">
+                <!-- Nav tabs -->
             <ul class="nav  nav-tabs  nav-justified  product__info-tabs-titles" role="tablist">
               <li role="presentation"><a class="text-montserrat-bold-16-cap  grey-959596" href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
               <li role="presentation" class="active"><a class="text-montserrat-bold-16-cap  grey-959596" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Information</a></li>
@@ -260,6 +257,5 @@
       </section>
     </div>
     </div>
-  </div>
 </main>
 

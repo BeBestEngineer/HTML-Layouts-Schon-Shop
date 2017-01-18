@@ -32,75 +32,77 @@
 
 
     <div class="row">
-      <div class="shopping-cart__table">
-        <div class="shopping-cart__head  text-source-sans-pro-bold-16-up  grey-838182">
-          <div class="row">
-            <div class="col-sm-6  col-xs-6  shopping-cart__head-product-column">Product</div>
-            <div class="col-xs-2  hidden-xs">Price</div>
-            <div class="col-xs-1  hidden-xs">Quantity</div>
-            <div class="col-xs-2  col-xs-6">Total</div>
-            <div class="col-xs-1  hidden-xs"></div>
-          </div>
-        </div>
-        <ul class="shopping-cart__list">
-        <?php for ($i = 0; $i <= 2; ++$i): ?>
-          <li class="shopping-cart__item">
+      <div class="col-xs-12">
+        <div class="shopping-cart__table">
+          <div class="shopping-cart__head  text-source-sans-pro-bold-16-up  grey-838182">
             <div class="row">
-              <div class="col-sm-2  hidden-xs  shopping-cart__col-product-photo">
-                <a class="shopping-cart__image-wrapper" href="#">
-                  <img class="image" src="images/shopping-cart/shopping-cart-item(1).png" alt="carousel-1-4-home image">
-                </a>
-              </div>
-
-              <div class="col-sm-4  col-xs-6   shopping-cart__col-product-info">
-                <h3 class=""><a class="text-source-sans-pro-bold-18-cap  grey-757575" href="#">Marvelous Modern 3 Seater</a></h3>
-              </div>
-
-              <div class="col-sm-2  hidden-xs   shopping-cart__col-product-price">
-                <div class="product-price  text-myriad-pro-regular-18-up  black-000000">
-                  <span class="">&euro;</span>
-                  <span class="">129</span>
-                </div>
-              </div>
-
-              <div class="col-sm-1  hidden-xs  shopping-cart__col-product-quantity">
-                <div class="product__quantity-buttons  product__info-text">
-                  <button class="product__quantity-more" type="button">
-                    <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
-                    </svg>
-                  </button>
-                  <input class="product__quantity-value  text-montserrat-bold-18-upper  grey-979797" value="1" type="text">
-                  <button class="product__quantity-less" type="button">
-                    <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"></path>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-
-              <div class="col-sm-2  col-xs-3 shopping-cart__col-product-total-price">
-                <span class="total-price  text-myriad-pro-regular-18-up  black-000000">
-                  <span class="">&euro;</span>
-                  <span class="">129</span>
-                </span>
-              </div>
-
-              <div class="col-sm-1  shopping-cart__col-product-actions">
-                <div class="action">
-                  <a href="#" class="shopping-cart__delete-item">
-                    <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/>
-                    </svg>
+              <div class="col-sm-6  col-xs-6  shopping-cart__head-product-column">Product</div>
+              <div class="col-xs-2  hidden-xs">Price</div>
+              <div class="col-xs-1  hidden-xs">Quantity</div>
+              <div class="col-xs-2  col-xs-6">Total</div>
+              <div class="col-xs-1  hidden-xs"></div>
+            </div>
+          </div>
+          <ul class="shopping-cart__list">
+          <?php for ($i = 0; $i <= 2; ++$i): ?>
+            <li class="shopping-cart__item">
+              <div class="row">
+                <div class="col-sm-2  hidden-xs  shopping-cart__col-product-photo">
+                  <a class="shopping-cart__image-wrapper" href="#">
+                    <img class="image" src="images/shopping-cart/shopping-cart-item(1).png" alt="carousel-1-4-home image">
                   </a>
                 </div>
-              </div>
 
-            </div><!--row-->
-          </li>
-        <? endfor; ?>
+                <div class="col-sm-4  col-xs-6   shopping-cart__col-product-info">
+                  <h3 class=""><a class="text-source-sans-pro-bold-18-cap  grey-757575" href="#">Marvelous Modern 3 Seater</a></h3>
+                </div>
 
-        </ul>
+                <div class="col-sm-2  hidden-xs   shopping-cart__col-product-price">
+                  <div class="product-price  text-myriad-pro-regular-18-up  black-000000">
+                    <span class="">&euro;</span>
+                    <span class="">129</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-1  hidden-xs  shopping-cart__col-product-quantity">
+                  <div class="product__quantity-buttons  product__info-text">
+                    <button class="product__quantity-more" type="button">
+                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
+                      </svg>
+                    </button>
+                    <input class="product__quantity-value  text-montserrat-bold-18-upper  grey-979797" value="1" type="text">
+                    <button class="product__quantity-less" type="button">
+                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-sm-2  col-xs-3 shopping-cart__col-product-total-price">
+                  <span class="total-price  text-myriad-pro-regular-18-up  black-000000">
+                    <span class="">&euro;</span>
+                    <span class="">129</span>
+                  </span>
+                </div>
+
+                <div class="col-sm-1  shopping-cart__col-product-actions">
+                  <div class="action">
+                    <a href="#" class="shopping-cart__delete-item">
+                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+              </div><!--row-->
+            </li>
+          <? endfor; ?>
+
+          </ul>
+        </div>
       </div>
     </div>
 
