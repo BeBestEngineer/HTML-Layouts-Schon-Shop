@@ -318,7 +318,7 @@ module.exports = function(grunt) {
     'csscomb',
     'replace',
     'cssmin',
-    'uglify'
-    // 'imagemin'
+    'uglify',
+    'imagemin'
   ]);
 };
