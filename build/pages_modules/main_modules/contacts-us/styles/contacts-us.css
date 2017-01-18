@@ -1,0 +1,33 @@
+/* contacts-us */
+.contacts-us__wrapper {
+	padding: 75px 0px;
+}
+@media (max-width: 767px) {
+	.contacts-us__adress-wrapper {
+		padding-bottom: 30px;
+	}
+}
+.contacts-us__title {
+	margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+	.contacts-us__form-title {
+		margin-top: 60px;
+	}
+}
+.contacts-us__desc-text {
+	margin-bottom: 60px;
+}
+.contacts-us__contacts-title {
+	display: block;
+	margin-bottom: 15px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.contacts-us__e-mail-wrapper {
+		padding-top: 30px;
+	}
+}
+.contacts-us__form-textarea  {
+	resize: none;
+}
+
