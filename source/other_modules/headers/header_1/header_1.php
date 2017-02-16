@@ -3,7 +3,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
 
     <div class="row">
-      <div class="col-lg-2  col-sm-2">
+      <div class="col-sm-2">
         <a class="image-wrapper  logo-link" href="?page=home">
           <img class="image  image-logo" src="images/header/logo-color.png" alt="logo-color">
         </a>
