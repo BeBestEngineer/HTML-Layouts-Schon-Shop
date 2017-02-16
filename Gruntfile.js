@@ -1,6 +1,4 @@
 module.exports = function(grunt) {
-  require('time-grunt')(grunt);
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -306,7 +304,8 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin that provides tasks.
-  require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
+  require('load-grunt-tasks')(grunt, {scope: ['devDependencies', 'dependencies']});
+    require('time-grunt')(grunt);
 
   // Default task(s).
   grunt.registerTask('default', [
