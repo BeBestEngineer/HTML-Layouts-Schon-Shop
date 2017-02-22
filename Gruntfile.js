@@ -317,6 +317,24 @@ module.exports = function(grunt) {
             ]
           }
         ]
+      },
+      htmlLinks_toIndex: {
+        options: {
+          patterns: [
+            {
+              match: /home.html/g,
+              replacement: 'index.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
       }
     },
 
@@ -354,7 +372,7 @@ module.exports = function(grunt) {
     },
 
     shell: {
-      makePagesHTML: {
+      convertPagesToHTML: {
         cwd: 'source',
         command: [
           'php html-converter.php -p404',
@@ -364,6 +382,12 @@ module.exports = function(grunt) {
           'php html-converter.php -pproduct',
           'php html-converter.php -pproducts-list',
           'php html-converter.php -pshopping-cart'
+        ].join('&')
+      },
+      renamePageToIndex: {
+        cwd: 'build',
+        command: [
+          'mv  home.html  index.html'
         ].join('&')
       }
     }
@@ -381,12 +405,11 @@ module.exports = function(grunt) {
     'postcss:main_styles',
     'cmq',
     'csscomb',
-    'convertPagesToHTML',
+    'shell:convertPagesToHTML',
     'replace',
+    'shell:renamePageToIndex',
     'cssmin',
     'uglify',
     'imagemin'
   ]);
-
-  grunt.registerTask('convertPagesToHTML', ['shell:makePagesHTML']);
 };
