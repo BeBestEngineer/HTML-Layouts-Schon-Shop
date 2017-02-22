@@ -4,20 +4,12 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-      build: ["build"]
+      build: ['build']
     },
 
     copy: {
       build: {
         files: [
-          {
-            expand: true,
-            cwd: "source/global_pages_data",
-            src: [
-              "**"
-            ],
-            dest: "build/pages_data"
-          },
           {
             expand: true,
             cwd: "source/global_third_components",
@@ -31,38 +23,6 @@ module.exports = function(grunt) {
             cwd: "source",
             src: [
               "images/**"
-            ],
-            dest: "build"
-          },
-          {
-            expand: true,
-            cwd: "source",
-            src: [
-              "main_modules/**"
-            ],
-            dest: "build/pages_modules/"
-          },
-          {
-            expand: true,
-            cwd: "source",
-            src: [
-              "other_modules/**"
-            ],
-            dest: "build/pages_modules/"
-          },
-          {
-            expand: true,
-            cwd: "source/page_builders",
-            src: [
-              "**"
-            ],
-            dest: "build/pages"
-          },
-          {
-            expand: true,
-            cwd: "source",
-            src: [
-              "index.php"
             ],
             dest: "build"
           }
@@ -152,39 +112,6 @@ module.exports = function(grunt) {
     },
 
     replace: {
-      paths: {
-        options: {
-          patterns: [
-            {
-              match: /global_pages_data/g,
-              replacement: 'pages_data'
-            },
-            {
-              match: /page_builders/g,
-              replacement: 'pages'
-            },
-            {
-              match: /other_modules/g,
-              replacement: 'pages_modules/other_modules'
-            },
-            {
-              match: /main_modules/g,
-              replacement: 'pages_modules/main_modules'
-            }
-          ]
-        },
-        files: [
-          {
-            expand: true,
-            src: [
-             'build/index.php',
-             'build/pages/**',
-             'build/pages_data/**',
-             'build/pages_modules/**'
-            ]
-          }
-        ]
-      },
       fonts: {
         options: {
           patterns: [
@@ -220,7 +147,7 @@ module.exports = function(grunt) {
           {
             expand: true,
             src: [
-              'build/pages_modules/other_modules/_head_html/_head_html.php'
+              'build/*.html'
             ]
           }
         ]
@@ -242,7 +169,7 @@ module.exports = function(grunt) {
           {
             expand: true,
             src: [
-              'build/pages_modules/other_modules/_end_html/_end_html.php'
+              'build/*.html'
             ]
           }
         ]
@@ -260,8 +187,133 @@ module.exports = function(grunt) {
           {
             expand: true,
             src: [
-              'build/pages_modules/other_modules/_head_html/_head_html.php',
-              'build/pages_modules/other_modules/_end_html/_end_html.php'
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toHome: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=home/g,
+              replacement: 'home.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toProductsList: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=products-list/g,
+              replacement: 'products-list.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toProduct: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=product/g,
+              replacement: 'product.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toShoppingCart: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=shopping-cart/g,
+              replacement: 'shopping-cart.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toAboutUs: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=about-us/g,
+              replacement: 'about-us.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_toContactUs: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=contact-us/g,
+              replacement: 'contact-us.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
+            ]
+          }
+        ]
+      },
+      htmlLinks_to404: {
+        options: {
+          patterns: [
+            {
+              match: /\?page=404/g,
+              replacement: '404.html'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true,
+            src: [
+              'build/*.html'
             ]
           }
         ]
@@ -299,8 +351,22 @@ module.exports = function(grunt) {
           src: ['build/images/**/*.{png,jpg,gif,svg}']
         }]
       }
-    }
+    },
 
+    shell: {
+      makePagesHTML: {
+        cwd: 'source',
+        command: [
+          'php html-converter.php -p404',
+          'php html-converter.php -pabout-us',
+          'php html-converter.php -pcontact-us',
+          'php html-converter.php -phome',
+          'php html-converter.php -pproduct',
+          'php html-converter.php -pproducts-list',
+          'php html-converter.php -pshopping-cart'
+        ].join('&')
+      }
+    }
   });
 
   // Load the plugin that provides tasks.
@@ -315,9 +381,12 @@ module.exports = function(grunt) {
     'postcss:main_styles',
     'cmq',
     'csscomb',
+    'convertPagesToHTML',
     'replace',
     'cssmin',
     'uglify',
     'imagemin'
   ]);
+
+  grunt.registerTask('convertPagesToHTML', ['shell:makePagesHTML']);
 };
