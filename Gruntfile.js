@@ -390,6 +390,19 @@ module.exports = function(grunt) {
           'mv  home.html  index.html'
         ].join('&')
       }
+    },
+
+    prettify: {
+      options: {
+        config: '.prettifyrc'
+      },
+      all: {
+        expand: true,
+        cwd: 'build/',
+        ext: '.html',
+        src: ['*.html'],
+        dest: 'build/'
+      }
     }
   });
 
@@ -408,6 +421,7 @@ module.exports = function(grunt) {
     'shell:convertPagesToHTML',
     'replace',
     'shell:renamePageToIndex',
+    'prettify',
     'cssmin',
     'uglify',
     'imagemin'
